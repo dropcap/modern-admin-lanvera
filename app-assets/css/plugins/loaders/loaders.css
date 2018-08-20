@@ -1886,86 +1886,86 @@
 .ball-grid-beat {
   width: 57px; }
   .ball-grid-beat > div:nth-child(1) {
-    -webkit-animation-delay: 0.09s;
-       -moz-animation-delay: 0.09s;
-         -o-animation-delay: 0.09s;
-            animation-delay: 0.09s;
-    -webkit-animation-duration: 1.45s;
-       -moz-animation-duration: 1.45s;
-         -o-animation-duration: 1.45s;
-            animation-duration: 1.45s; }
+    -webkit-animation-delay: 0.22s;
+       -moz-animation-delay: 0.22s;
+         -o-animation-delay: 0.22s;
+            animation-delay: 0.22s;
+    -webkit-animation-duration: 1.23s;
+       -moz-animation-duration: 1.23s;
+         -o-animation-duration: 1.23s;
+            animation-duration: 1.23s; }
   .ball-grid-beat > div:nth-child(2) {
-    -webkit-animation-delay: 0.62s;
-       -moz-animation-delay: 0.62s;
-         -o-animation-delay: 0.62s;
-            animation-delay: 0.62s;
-    -webkit-animation-duration: 1.49s;
-       -moz-animation-duration: 1.49s;
-         -o-animation-duration: 1.49s;
-            animation-duration: 1.49s; }
+    -webkit-animation-delay: 0.68s;
+       -moz-animation-delay: 0.68s;
+         -o-animation-delay: 0.68s;
+            animation-delay: 0.68s;
+    -webkit-animation-duration: 1s;
+       -moz-animation-duration: 1s;
+         -o-animation-duration: 1s;
+            animation-duration: 1s; }
   .ball-grid-beat > div:nth-child(3) {
-    -webkit-animation-delay: 0.43s;
-       -moz-animation-delay: 0.43s;
-         -o-animation-delay: 0.43s;
-            animation-delay: 0.43s;
-    -webkit-animation-duration: 1.34s;
-       -moz-animation-duration: 1.34s;
-         -o-animation-duration: 1.34s;
-            animation-duration: 1.34s; }
+    -webkit-animation-delay: 0.14s;
+       -moz-animation-delay: 0.14s;
+         -o-animation-delay: 0.14s;
+            animation-delay: 0.14s;
+    -webkit-animation-duration: 1.28s;
+       -moz-animation-duration: 1.28s;
+         -o-animation-duration: 1.28s;
+            animation-duration: 1.28s; }
   .ball-grid-beat > div:nth-child(4) {
-    -webkit-animation-delay: 0.34s;
-       -moz-animation-delay: 0.34s;
-         -o-animation-delay: 0.34s;
-            animation-delay: 0.34s;
-    -webkit-animation-duration: 1.27s;
-       -moz-animation-duration: 1.27s;
-         -o-animation-duration: 1.27s;
-            animation-duration: 1.27s; }
+    -webkit-animation-delay: 0.61s;
+       -moz-animation-delay: 0.61s;
+         -o-animation-delay: 0.61s;
+            animation-delay: 0.61s;
+    -webkit-animation-duration: 1.19s;
+       -moz-animation-duration: 1.19s;
+         -o-animation-duration: 1.19s;
+            animation-duration: 1.19s; }
   .ball-grid-beat > div:nth-child(5) {
-    -webkit-animation-delay: 0.74s;
-       -moz-animation-delay: 0.74s;
-         -o-animation-delay: 0.74s;
-            animation-delay: 0.74s;
-    -webkit-animation-duration: 1.45s;
-       -moz-animation-duration: 1.45s;
-         -o-animation-duration: 1.45s;
-            animation-duration: 1.45s; }
+    -webkit-animation-delay: 0.66s;
+       -moz-animation-delay: 0.66s;
+         -o-animation-delay: 0.66s;
+            animation-delay: 0.66s;
+    -webkit-animation-duration: 1.4s;
+       -moz-animation-duration: 1.4s;
+         -o-animation-duration: 1.4s;
+            animation-duration: 1.4s; }
   .ball-grid-beat > div:nth-child(6) {
-    -webkit-animation-delay: 0.28s;
-       -moz-animation-delay: 0.28s;
-         -o-animation-delay: 0.28s;
-            animation-delay: 0.28s;
-    -webkit-animation-duration: 1.41s;
-       -moz-animation-duration: 1.41s;
-         -o-animation-duration: 1.41s;
-            animation-duration: 1.41s; }
-  .ball-grid-beat > div:nth-child(7) {
-    -webkit-animation-delay: -0.18s;
-       -moz-animation-delay: -0.18s;
-         -o-animation-delay: -0.18s;
-            animation-delay: -0.18s;
-    -webkit-animation-duration: 0.78s;
-       -moz-animation-duration: 0.78s;
-         -o-animation-duration: 0.78s;
-            animation-duration: 0.78s; }
-  .ball-grid-beat > div:nth-child(8) {
-    -webkit-animation-delay: -0.01s;
-       -moz-animation-delay: -0.01s;
-         -o-animation-delay: -0.01s;
-            animation-delay: -0.01s;
+    -webkit-animation-delay: 0.6s;
+       -moz-animation-delay: 0.6s;
+         -o-animation-delay: 0.6s;
+            animation-delay: 0.6s;
     -webkit-animation-duration: 0.83s;
        -moz-animation-duration: 0.83s;
          -o-animation-duration: 0.83s;
             animation-duration: 0.83s; }
+  .ball-grid-beat > div:nth-child(7) {
+    -webkit-animation-delay: 0.47s;
+       -moz-animation-delay: 0.47s;
+         -o-animation-delay: 0.47s;
+            animation-delay: 0.47s;
+    -webkit-animation-duration: 1.56s;
+       -moz-animation-duration: 1.56s;
+         -o-animation-duration: 1.56s;
+            animation-duration: 1.56s; }
+  .ball-grid-beat > div:nth-child(8) {
+    -webkit-animation-delay: 0.22s;
+       -moz-animation-delay: 0.22s;
+         -o-animation-delay: 0.22s;
+            animation-delay: 0.22s;
+    -webkit-animation-duration: 0.7s;
+       -moz-animation-duration: 0.7s;
+         -o-animation-duration: 0.7s;
+            animation-duration: 0.7s; }
   .ball-grid-beat > div:nth-child(9) {
-    -webkit-animation-delay: 0.44s;
-       -moz-animation-delay: 0.44s;
-         -o-animation-delay: 0.44s;
-            animation-delay: 0.44s;
-    -webkit-animation-duration: 1.54s;
-       -moz-animation-duration: 1.54s;
-         -o-animation-duration: 1.54s;
-            animation-duration: 1.54s; }
+    -webkit-animation-delay: 0.24s;
+       -moz-animation-delay: 0.24s;
+         -o-animation-delay: 0.24s;
+            animation-delay: 0.24s;
+    -webkit-animation-duration: 1.42s;
+       -moz-animation-duration: 1.42s;
+         -o-animation-duration: 1.42s;
+            animation-duration: 1.42s; }
   .ball-grid-beat > div {
     background-color: #6B6F82;
     width: 15px;
@@ -2052,86 +2052,86 @@
 .ball-grid-pulse {
   width: 57px; }
   .ball-grid-pulse > div:nth-child(1) {
-    -webkit-animation-delay: 0.14s;
-       -moz-animation-delay: 0.14s;
-         -o-animation-delay: 0.14s;
-            animation-delay: 0.14s;
-    -webkit-animation-duration: 0.78s;
-       -moz-animation-duration: 0.78s;
-         -o-animation-duration: 0.78s;
-            animation-duration: 0.78s; }
+    -webkit-animation-delay: 0.21s;
+       -moz-animation-delay: 0.21s;
+         -o-animation-delay: 0.21s;
+            animation-delay: 0.21s;
+    -webkit-animation-duration: 1.15s;
+       -moz-animation-duration: 1.15s;
+         -o-animation-duration: 1.15s;
+            animation-duration: 1.15s; }
   .ball-grid-pulse > div:nth-child(2) {
-    -webkit-animation-delay: 0.4s;
-       -moz-animation-delay: 0.4s;
-         -o-animation-delay: 0.4s;
-            animation-delay: 0.4s;
+    -webkit-animation-delay: -0.13s;
+       -moz-animation-delay: -0.13s;
+         -o-animation-delay: -0.13s;
+            animation-delay: -0.13s;
     -webkit-animation-duration: 1.47s;
        -moz-animation-duration: 1.47s;
          -o-animation-duration: 1.47s;
             animation-duration: 1.47s; }
   .ball-grid-pulse > div:nth-child(3) {
-    -webkit-animation-delay: 0.53s;
-       -moz-animation-delay: 0.53s;
-         -o-animation-delay: 0.53s;
-            animation-delay: 0.53s;
-    -webkit-animation-duration: 0.66s;
-       -moz-animation-duration: 0.66s;
-         -o-animation-duration: 0.66s;
-            animation-duration: 0.66s; }
+    -webkit-animation-delay: 0.21s;
+       -moz-animation-delay: 0.21s;
+         -o-animation-delay: 0.21s;
+            animation-delay: 0.21s;
+    -webkit-animation-duration: 1.5s;
+       -moz-animation-duration: 1.5s;
+         -o-animation-duration: 1.5s;
+            animation-duration: 1.5s; }
   .ball-grid-pulse > div:nth-child(4) {
-    -webkit-animation-delay: 0.55s;
-       -moz-animation-delay: 0.55s;
-         -o-animation-delay: 0.55s;
-            animation-delay: 0.55s;
-    -webkit-animation-duration: 0.61s;
-       -moz-animation-duration: 0.61s;
-         -o-animation-duration: 0.61s;
-            animation-duration: 0.61s; }
+    -webkit-animation-delay: 0.26s;
+       -moz-animation-delay: 0.26s;
+         -o-animation-delay: 0.26s;
+            animation-delay: 0.26s;
+    -webkit-animation-duration: 0.71s;
+       -moz-animation-duration: 0.71s;
+         -o-animation-duration: 0.71s;
+            animation-duration: 0.71s; }
   .ball-grid-pulse > div:nth-child(5) {
-    -webkit-animation-delay: 0.79s;
-       -moz-animation-delay: 0.79s;
-         -o-animation-delay: 0.79s;
-            animation-delay: 0.79s;
-    -webkit-animation-duration: 1.3s;
-       -moz-animation-duration: 1.3s;
-         -o-animation-duration: 1.3s;
-            animation-duration: 1.3s; }
+    -webkit-animation-delay: -0.14s;
+       -moz-animation-delay: -0.14s;
+         -o-animation-delay: -0.14s;
+            animation-delay: -0.14s;
+    -webkit-animation-duration: 0.81s;
+       -moz-animation-duration: 0.81s;
+         -o-animation-duration: 0.81s;
+            animation-duration: 0.81s; }
   .ball-grid-pulse > div:nth-child(6) {
-    -webkit-animation-delay: 0.18s;
-       -moz-animation-delay: 0.18s;
-         -o-animation-delay: 0.18s;
-            animation-delay: 0.18s;
-    -webkit-animation-duration: 1.06s;
-       -moz-animation-duration: 1.06s;
-         -o-animation-duration: 1.06s;
-            animation-duration: 1.06s; }
+    -webkit-animation-delay: 0.26s;
+       -moz-animation-delay: 0.26s;
+         -o-animation-delay: 0.26s;
+            animation-delay: 0.26s;
+    -webkit-animation-duration: 1.11s;
+       -moz-animation-duration: 1.11s;
+         -o-animation-duration: 1.11s;
+            animation-duration: 1.11s; }
   .ball-grid-pulse > div:nth-child(7) {
-    -webkit-animation-delay: 0.76s;
-       -moz-animation-delay: 0.76s;
-         -o-animation-delay: 0.76s;
-            animation-delay: 0.76s;
-    -webkit-animation-duration: 1.03s;
-       -moz-animation-duration: 1.03s;
-         -o-animation-duration: 1.03s;
-            animation-duration: 1.03s; }
+    -webkit-animation-delay: 0.47s;
+       -moz-animation-delay: 0.47s;
+         -o-animation-delay: 0.47s;
+            animation-delay: 0.47s;
+    -webkit-animation-duration: 1.46s;
+       -moz-animation-duration: 1.46s;
+         -o-animation-duration: 1.46s;
+            animation-duration: 1.46s; }
   .ball-grid-pulse > div:nth-child(8) {
-    -webkit-animation-delay: 0.68s;
-       -moz-animation-delay: 0.68s;
-         -o-animation-delay: 0.68s;
-            animation-delay: 0.68s;
-    -webkit-animation-duration: 0.67s;
-       -moz-animation-duration: 0.67s;
-         -o-animation-duration: 0.67s;
-            animation-duration: 0.67s; }
+    -webkit-animation-delay: 0.16s;
+       -moz-animation-delay: 0.16s;
+         -o-animation-delay: 0.16s;
+            animation-delay: 0.16s;
+    -webkit-animation-duration: 1.31s;
+       -moz-animation-duration: 1.31s;
+         -o-animation-duration: 1.31s;
+            animation-duration: 1.31s; }
   .ball-grid-pulse > div:nth-child(9) {
-    -webkit-animation-delay: 0.48s;
-       -moz-animation-delay: 0.48s;
-         -o-animation-delay: 0.48s;
-            animation-delay: 0.48s;
-    -webkit-animation-duration: 1.53s;
-       -moz-animation-duration: 1.53s;
-         -o-animation-duration: 1.53s;
-            animation-duration: 1.53s; }
+    -webkit-animation-delay: -0.14s;
+       -moz-animation-delay: -0.14s;
+         -o-animation-delay: -0.14s;
+            animation-delay: -0.14s;
+    -webkit-animation-duration: 1.09s;
+       -moz-animation-duration: 1.09s;
+         -o-animation-duration: 1.09s;
+            animation-duration: 1.09s; }
   .ball-grid-pulse > div {
     background-color: #6B6F82;
     width: 15px;
@@ -2857,44 +2857,44 @@
             transform: scale(1); } }
 
 .line-scale-party > div:nth-child(1) {
-  -webkit-animation-delay: -0.07s;
-     -moz-animation-delay: -0.07s;
-       -o-animation-delay: -0.07s;
-          animation-delay: -0.07s;
-  -webkit-animation-duration: 0.42s;
-     -moz-animation-duration: 0.42s;
-       -o-animation-duration: 0.42s;
-          animation-duration: 0.42s; }
+  -webkit-animation-delay: 0.7s;
+     -moz-animation-delay: 0.7s;
+       -o-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+  -webkit-animation-duration: 0.93s;
+     -moz-animation-duration: 0.93s;
+       -o-animation-duration: 0.93s;
+          animation-duration: 0.93s; }
 
 .line-scale-party > div:nth-child(2) {
-  -webkit-animation-delay: 0.24s;
-     -moz-animation-delay: 0.24s;
-       -o-animation-delay: 0.24s;
-          animation-delay: 0.24s;
-  -webkit-animation-duration: 1.26s;
-     -moz-animation-duration: 1.26s;
-       -o-animation-duration: 1.26s;
-          animation-duration: 1.26s; }
+  -webkit-animation-delay: 0.41s;
+     -moz-animation-delay: 0.41s;
+       -o-animation-delay: 0.41s;
+          animation-delay: 0.41s;
+  -webkit-animation-duration: 0.89s;
+     -moz-animation-duration: 0.89s;
+       -o-animation-duration: 0.89s;
+          animation-duration: 0.89s; }
 
 .line-scale-party > div:nth-child(3) {
-  -webkit-animation-delay: 0.24s;
-     -moz-animation-delay: 0.24s;
-       -o-animation-delay: 0.24s;
-          animation-delay: 0.24s;
-  -webkit-animation-duration: 0.41s;
-     -moz-animation-duration: 0.41s;
-       -o-animation-duration: 0.41s;
-          animation-duration: 0.41s; }
+  -webkit-animation-delay: 0.29s;
+     -moz-animation-delay: 0.29s;
+       -o-animation-delay: 0.29s;
+          animation-delay: 0.29s;
+  -webkit-animation-duration: 0.87s;
+     -moz-animation-duration: 0.87s;
+       -o-animation-duration: 0.87s;
+          animation-duration: 0.87s; }
 
 .line-scale-party > div:nth-child(4) {
-  -webkit-animation-delay: 0.63s;
-     -moz-animation-delay: 0.63s;
-       -o-animation-delay: 0.63s;
-          animation-delay: 0.63s;
-  -webkit-animation-duration: 0.39s;
-     -moz-animation-duration: 0.39s;
-       -o-animation-duration: 0.39s;
-          animation-duration: 0.39s; }
+  -webkit-animation-delay: 0.13s;
+     -moz-animation-delay: 0.13s;
+       -o-animation-delay: 0.13s;
+          animation-delay: 0.13s;
+  -webkit-animation-duration: 0.68s;
+     -moz-animation-duration: 0.68s;
+       -o-animation-duration: 0.68s;
+          animation-duration: 0.68s; }
 
 .line-scale-party > div {
   background-color: #6B6F82;
