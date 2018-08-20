@@ -260,10 +260,10 @@ form {
     form .form-control:-ms-input-placeholder {
       color: #aeb5da; }
   form .form-section {
-    color: #233052;
+    color: #3c5485;
     line-height: 3rem;
     margin-bottom: 20px;
-    border-bottom: 1px solid #233052; }
+    border-bottom: 1px solid #3c5485; }
     form .form-section i {
       font-size: 20px;
       margin-left: 5px;
