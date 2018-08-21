@@ -1,0 +1,38 @@
+//- =========================================================================================
+	File Name: documents-settings.pug
+	Description: Document Settings
+	----------------------------------------------------------------------------------------
+	Item Name: Lanvera Components
+	Version: 1.0
+	Author: Lanvera
+	Author URL: http://www.lanvera.com
+	==========================================================================================
+
+
+extends template
+
+block pageVars
+	- var pageTitle = "Document Settings"
+	- var pageSubTitle = "Categories"
+	- var description = "This tells you what the page does"
+	- var activeMenu = "document-settings"
+
+block breadcrumbs
+	+breadcrumbs([{url:"index.html",name:"Home"}, {name:"Settings"}])
+
+//- Include page content in page block
+append content
+	include ../contents/documents-settings.html
+
+//- Vendor JS
+//------------------------------
+//- Add vendor specific JS
+append vendorjs
+	//- This JS file is already included in the scripts.pug file so we have commented it on this page to prevent loading the same js twice.
+	//- script(src=app_assets_path + '/vendors/js/ui/blockUI.min.js', type='text/javascript')
+
+//- Page JS
+//------------------------------
+//- Add custom page specific JS
+append pagejs
+	script(src=app_assets_path + '/js/scripts/extensions/block-ui.js', type='text/javascript')

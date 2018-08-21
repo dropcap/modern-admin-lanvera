@@ -51,15 +51,15 @@
     font-size: 1rem;
     display: inline-block;
     position: absolute;
-    right: 20px;
+    right: 10px;
     top: 14px;
     -webkit-transform: rotate(0deg);
        -moz-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
          -o-transform: rotate(0deg);
             transform: rotate(0deg);
-    -webkit-transition: -webkit-transform 0.2s ease-in-out;
-            transition: -webkit-transform 0.2s ease-in-out; }
+    -webkit-transition: -webkit-transform 0.9s ease-in-out;
+            transition: -webkit-transform 0.9s ease-in-out; }
   .vertical-content-menu.menu-expanded .main-menu .navigation li.has-sub .has-sub > a:not(.mm-next):after {
     top: 8px; }
   .vertical-content-menu.menu-expanded .main-menu .navigation li.open > a:not(.mm-next):after {
@@ -173,15 +173,15 @@
         font-size: 1rem;
         display: inline-block;
         position: absolute;
-        right: 20px;
+        right: 10px;
         top: 14px;
         -webkit-transform: rotate(0deg);
            -moz-transform: rotate(0deg);
             -ms-transform: rotate(0deg);
              -o-transform: rotate(0deg);
                 transform: rotate(0deg);
-        -webkit-transition: -webkit-transform 0.2s ease-in-out;
-                transition: -webkit-transform 0.2s ease-in-out; }
+        -webkit-transition: -webkit-transform 0.9s ease-in-out;
+                transition: -webkit-transform 0.9s ease-in-out; }
       .vertical-content-menu.menu-collapsed .main-menu .main-menu-content > ul.menu-content li.has-sub .has-sub > a:not(.mm-next):after {
         top: 8px; }
       .vertical-content-menu.menu-collapsed .main-menu .main-menu-content > ul.menu-content li.open > a:not(.mm-next):after {
@@ -373,15 +373,15 @@
     font-size: 1rem;
     display: inline-block;
     position: absolute;
-    right: 20px;
+    right: 10px;
     top: 14px;
     -webkit-transform: rotate(0deg);
        -moz-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
          -o-transform: rotate(0deg);
             transform: rotate(0deg);
-    -webkit-transition: -webkit-transform 0.2s ease-in-out;
-            transition: -webkit-transform 0.2s ease-in-out; }
+    -webkit-transition: -webkit-transform 0.9s ease-in-out;
+            transition: -webkit-transform 0.9s ease-in-out; }
   .vertical-overlay-menu .main-menu .navigation li.has-sub .has-sub > a:not(.mm-next):after, .vertical-overlay-menu.menu-hide .main-menu .navigation li.has-sub .has-sub > a:not(.mm-next):after {
     top: 8px; }
   .vertical-overlay-menu .main-menu .navigation li.open > a:not(.mm-next):after, .vertical-overlay-menu.menu-hide .main-menu .navigation li.open > a:not(.mm-next):after {

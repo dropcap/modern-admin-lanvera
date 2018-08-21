@@ -1,0 +1,27 @@
+//- =========================================================================================
+	File Name: notifications-system.pug
+	Description: System Notifications
+	----------------------------------------------------------------------------------------
+	Item Name: Lanvera Components
+	Version: 1.0
+	Author: Lanvera
+	Author URL: http://www.lanvera.com
+	==========================================================================================
+
+
+extends template
+
+block pageVars
+	- var pageTitle = "System Notifications"
+	- var pageSubTitle = "Check out these system notifications"
+	- var description = "This tells you what the page does"
+	- var activeMenu = "system-notifications"
+
+
+
+block breadcrumbs
+	+breadcrumbs([{url:"index.html",name:"Home"},{url:"#",name:"Notifications"}, {name:"System Notifications"}])
+
+//- Include page content in page block
+append content
+	include ../contents/notifications-system.html

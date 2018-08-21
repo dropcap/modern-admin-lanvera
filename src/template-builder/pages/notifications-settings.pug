@@ -1,0 +1,27 @@
+//- =========================================================================================
+	File Name: notifications-settings.pug
+	Description: Notifications Settings
+	----------------------------------------------------------------------------------------
+	Item Name: Lanvera Components
+	Version: 1.0
+	Author: Lanvera
+	Author URL: http://www.lanvera.com
+	==========================================================================================
+
+
+extends template
+
+block pageVars
+	- var pageTitle = "Notifications Settings"
+	- var pageSubTitle = "Check out these notifications settings"
+	- var description = "This tells you what the page does"
+	- var activeMenu = "notifications-settings"
+
+
+
+block breadcrumbs
+	+breadcrumbs([{url:"index.html",name:"Home"},{url:"#",name:"Notifications"}, {name:"Notifications Settings"}])
+
+//- Include page content in page block
+append content
+	include ../contents/notifications-settings.html

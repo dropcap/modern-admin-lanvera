@@ -774,7 +774,7 @@ select.form-control {
 .header-navbar {
   padding: 0px;
   min-height: 5rem;
-  font-family: "Quicksand", Georgia, "Times New Roman", Times, serif;
+  font-family: "Courier", Georgia, "Times New Roman", Times, serif;
   -webkit-transition: 300ms ease all;
      -moz-transition: 300ms ease all;
        -o-transition: 300ms ease all;
@@ -973,7 +973,7 @@ select.form-control {
     display: flex; }
 
 .navigation-main .mega-dropdown-menu, .navbar-nav .mega-dropdown-menu {
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Barlow", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   width: -webkit-calc(100% - 50px);
   width: -moz-calc(100% - 50px);
   width: calc(100% - 50px);
@@ -1404,7 +1404,7 @@ select.form-control {
 
 .breadcrumb {
   font-size: 1rem;
-  font-family: "Quicksand", Georgia, "Times New Roman", Times, serif;
+  font-family: "Courier", Georgia, "Times New Roman", Times, serif;
   background-color: transparent;
   padding: 0 0 0.75rem 0rem; }
   .breadcrumb > li + li::before {

@@ -30,7 +30,7 @@
 @mixin vertical-menu-transform-hide(){
     transform: translate3d(0,0,0);
 }
-// Mixins for the menu flipped menu 
+// Mixins for the menu flipped menu
 @mixin vertical-flipped-menu($menu-width){
     margin: 0;
     margin-right: $menu-width;
@@ -44,10 +44,10 @@
 		    font-size: $arrow-font-size;
 		    display: inline-block;
 		    position: absolute;
-		    right: 20px;
+		    right: 10px;
 		    top: 14px;
 		    transform: rotate(0deg);
-		    transition: -webkit-transform 0.2s ease-in-out;
+		    transition: -webkit-transform 0.9s ease-in-out;
 		}
 		.has-sub{
 			> a:not(.mm-next):after{
@@ -156,14 +156,14 @@
 	    		}
 			}
 			&.open {
-				
+
 				> ul{
 					// background: $main-menu-top-open-bg;
 				}
 				> a {
 					color: $main-menu-top-open-color;
 					background: $main-menu-top-open-head-bg;
-					border-right: 4px solid $info;					
+					border-right: 4px solid $info;
 				}
 
 				.hover {
@@ -182,8 +182,8 @@
 
 			&.hover, &:hover, &.active {
 				> a {
-					color: $main-menu-top-hover-color;					
-					// background-color: $main-menu-top-hover-bg;										
+					color: $main-menu-top-hover-color;
+					// background-color: $main-menu-top-hover-bg;
 					> i{
 						transform: translateX(6px);
 					}
@@ -196,7 +196,7 @@
 				}
 			}
 			&.active {
-				> a {					
+				> a {
 					color:$theme-color;
 					font-weight: 700;
 					background: $main-menu-top-open-hover-bg;
@@ -205,13 +205,13 @@
 
 		    .active {
 				background: $main-menu-top-open-hover-bg;
-		
+
 				> a {
-					color: lighten($theme-color, 10%);					
+					color: lighten($theme-color, 10%);
 					font-weight: 700;
 					background: $main-menu-top-open-hover-bg;
 				}
-		
+
 				.hover {
 					> a {
 						background: $main-menu-top-active-head-bg;
@@ -348,7 +348,7 @@
 			}
 			li.hover,li:hover {
 				> a {
-					// background: $main-menu-sub-open-hover-bg;					
+					// background: $main-menu-sub-open-hover-bg;
 				}
 			}
 		}
@@ -413,7 +413,7 @@
 		        }
 
 	        	@include vertical-menu-has-sub-arrow(1rem);
-	        	
+
 	        	&:hover,&.hover{
 					> a{
 						transform: translateX(4px);

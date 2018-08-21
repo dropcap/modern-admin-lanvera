@@ -35,17 +35,19 @@ body.vertical-layout.vertical-menu.menu-expanded .navbar .navbar-brand .brand-te
 
 body.vertical-layout.vertical-menu.menu-expanded .main-menu {
   width: 260px;
-  -webkit-transition: 300ms ease all;
-     -moz-transition: 300ms ease all;
-       -o-transition: 300ms ease all;
-          transition: 300ms ease all;
+  -webkit-transition: 100ms ease all;
+     -moz-transition: 100ms ease all;
+       -o-transition: 100ms ease all;
+          transition: 100ms ease all;
   -webkit-backface-visibility: hidden;
      -moz-backface-visibility: hidden;
           backface-visibility: hidden; }
   body.vertical-layout.vertical-menu.menu-expanded .main-menu .navigation .navigation-header .ft-minus {
     display: none; }
   body.vertical-layout.vertical-menu.menu-expanded .main-menu .navigation > li > a > i {
-    margin-right: 12px; }
+    margin-right: 12px;
+    margin-left: 8px;
+    top: 0; }
     body.vertical-layout.vertical-menu.menu-expanded .main-menu .navigation > li > a > i:before {
       font-size: 1.4rem; }
   body.vertical-layout.vertical-menu.menu-expanded .main-menu .navigation > li > a > span.badge {
@@ -57,15 +59,15 @@ body.vertical-layout.vertical-menu.menu-expanded .main-menu {
     font-size: 1rem;
     display: inline-block;
     position: absolute;
-    right: 20px;
+    right: 10px;
     top: 14px;
     -webkit-transform: rotate(0deg);
        -moz-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
          -o-transform: rotate(0deg);
             transform: rotate(0deg);
-    -webkit-transition: -webkit-transform 0.2s ease-in-out;
-            transition: -webkit-transform 0.2s ease-in-out; }
+    -webkit-transition: -webkit-transform 0.9s ease-in-out;
+            transition: -webkit-transform 0.9s ease-in-out; }
   body.vertical-layout.vertical-menu.menu-expanded .main-menu .navigation li.has-sub .has-sub > a:not(.mm-next):after {
     top: 8px; }
   body.vertical-layout.vertical-menu.menu-expanded .main-menu .navigation li.open > a:not(.mm-next):after {
@@ -165,15 +167,15 @@ body.vertical-layout.vertical-menu.menu-collapsed .main-menu {
         font-size: 1rem;
         display: inline-block;
         position: absolute;
-        right: 20px;
+        right: 10px;
         top: 14px;
         -webkit-transform: rotate(0deg);
            -moz-transform: rotate(0deg);
             -ms-transform: rotate(0deg);
              -o-transform: rotate(0deg);
                 transform: rotate(0deg);
-        -webkit-transition: -webkit-transform 0.2s ease-in-out;
-                transition: -webkit-transform 0.2s ease-in-out; }
+        -webkit-transition: -webkit-transform 0.9s ease-in-out;
+                transition: -webkit-transform 0.9s ease-in-out; }
       body.vertical-layout.vertical-menu.menu-collapsed .main-menu .main-menu-content > ul.menu-content li.has-sub .has-sub > a:not(.mm-next):after {
         top: 8px; }
       body.vertical-layout.vertical-menu.menu-collapsed .main-menu .main-menu-content > ul.menu-content li.open > a:not(.mm-next):after {
@@ -399,15 +401,15 @@ body.vertical-layout.vertical-menu.menu-collapsed.menu-flipped .footer {
     font-size: 1rem;
     display: inline-block;
     position: absolute;
-    right: 20px;
+    right: 10px;
     top: 14px;
     -webkit-transform: rotate(0deg);
        -moz-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
          -o-transform: rotate(0deg);
             transform: rotate(0deg);
-    -webkit-transition: -webkit-transform 0.2s ease-in-out;
-            transition: -webkit-transform 0.2s ease-in-out; }
+    -webkit-transition: -webkit-transform 0.9s ease-in-out;
+            transition: -webkit-transform 0.9s ease-in-out; }
   .vertical-overlay-menu .main-menu .navigation li.has-sub .has-sub > a:not(.mm-next):after, .vertical-overlay-menu.menu-hide .main-menu .navigation li.has-sub .has-sub > a:not(.mm-next):after {
     top: 8px; }
   .vertical-overlay-menu .main-menu .navigation li.open > a:not(.mm-next):after, .vertical-overlay-menu.menu-hide .main-menu .navigation li.open > a:not(.mm-next):after {

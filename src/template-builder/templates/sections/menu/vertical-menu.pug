@@ -15,270 +15,94 @@
     +verticalMenu([
 
 
-      {url:"index.html",name:"Dashboard",slug:"dashboard",icon:"la la-home", i18n:"nav.dash.main",tag:"3" , tagcustom: "badge badge-info badge-pill float-right mr-2",
-        submenu:[
-          {url:"dashboard-ecommerce.html", name:"eCommerce", slug:"dashboard-ecommerce", i18n:"nav.dash.ecommerce"},
-          {url:"dashboard-crypto.html", name:"Crypto", slug:"dashboard-crypto", i18n:"nav.dash.crypto"},
-          {url:"dashboard-sales.html", name:"Sales", slug:"dashboard-sales", i18n:"nav.dash.sales"},
-        ]
-      },
 
-
-      {url:"#",name:"Templates",slug:"#",icon:"la la-television", i18n:"nav.templates.main",
-        submenu:[
-          {url:"#", name:"Vertical", slug:"", i18n:"nav.templates.vert.main",
-            submenu:[
-              {url:"../vertical-menu-template", name:"Classic Menu", slug:"", i18n:"nav.templates.vert.classic_menu"},
-              {url:"../vertical-modern-menu-template", name:"Modern Menu", slug:""},
-              {url:"../vertical-compact-menu-template", name:"Compact Menu", slug:"", i18n:"nav.templates.vert.compact_menu"},
-              {url:"../vertical-content-menu-template", name:"Content Menu", slug:"", i18n:"nav.templates.vert.content_menu"},
-              {url:"../vertical-overlay-menu-template", name:"Overlay Menu", slug:"", i18n:"nav.templates.vert.overlay_menu"},
-            ]
-          },
-          {url:"#", name:"Horizontal", slug:"", i18n:"nav.templates.horz.main",
-            submenu:[
-              {url:"../horizontal-menu-template", name:"Classic", slug:"", i18n:"nav.templates.horz.classic"},
-              {url:"../horizontal-menu-template-nav", name:"Full Width", slug:"", i18n:"nav.templates.horz.top_icon"},
-            ]
-          },
-        ]
-      },
+      {url:"#",name:"Dashboard",icon:"la la-dashboard",slug:"dashboard"},
 
 
 
-      {navheader:"Pages",icon:"la la-ellipsis-h", i18n:"nav.category.pages"},
+      {navheader:"Manage",icon:"la la-ellipsis-h", i18n:"nav.category.manage"},
 
 
-        {url:"email-application.html",name:"Email Application",icon:"la la-envelope",slug:"email-application"},
-
-
-
-        {url:"chat-application.html",name:"Chat Application",icon:"la la-comments",slug:"chat-application"},
-
-
-
-        {url:"#",name:"Project",icon:"la la-briefcase",slug:"project-pages", i18n:"nav.project.main",
-
+        {url:"#", name:"Documents",icon:"", slug:"documents",icon:"la la-copy", i18n:"nav.documents.main",
           submenu:[
-            {url:"project-summary.html",name:"Project Summary",slug:"project-summary", i18n:"nav.project.project_summary"},
-            {url:"project-tasks.html",name:"Project Task",slug:"project-tasks", i18n:"nav.project.project_tasks"},
-            {url:"project-bugs.html",name:"Project Bugs",slug:"project-bugs", i18n:"nav.project.project_bugs"}
+            {url:"documents-documents.html", name:"All Documents",icon:"", slug:"documents-list", i18n:"nav.documents.documents_list"},
+            {url:"documents-cards.html", name:"Cards",icon:"", slug:"cards", i18n:"nav.documents.cards"},
+            {url:"documents-categories.html", name:"Categories",icon:"", slug:"categories", i18n:"nav.documents.categories"},
+            {url:"documents-settings.html", name:"Settings",icon:"", slug:"document-settings", i18n:"nav.documents.document-settings"},
           ]
         },
 
 
 
-        {url:"scrumboard.html",name:"Scrumboard",icon:"la la-check-square",slug:"scrumboard", i18n:"nav.scrumboard.main",tag:"Update" , tagcustom: "badge badge-info float-right"},
-
-
-
-        {url:"#",name:"Invoice",icon:"la la-clipboard",slug:"invoice-pages", i18n:"nav.invoice.main",
+        {url:"#",name:"Notifications",icon:"la la-bell",slug:"notifications", i18n:"nav.notifications.main",
 
           submenu:[
-            {url:"invoice-summary.html",name:"Invoice Summary",slug:"invoice-summary", i18n:"nav.invoice.invoice_summary"},
-            {url:"invoice-template.html",name:"Invoice Template",slug:"invoice-template", i18n:"nav.invoice.invoice_template"},
-            {url:"invoice-list.html",name:"Invoice List",slug:"invoice-list", i18n:"nav.invoice.invoice_list"}
+            {url:"notifications-document.html",name:"Document Notifications",slug:"document-notifications", i18n:"nav.notifications.document_notifications"},
+            {url:"notifications-system.html",name:"System Notifications",slug:"system-notifications", i18n:"nav.notifications.system_notifications"},
+            {url:"notifications-settings.html",name:"Settings",slug:"notifications-settings", i18n:"nav.notifications.notifications_settings"}
           ]
         },
 
 
 
-        {url:"#",name:"Timelines",icon:"la la-film",slug:"timeline-pages", i18n:"nav.timelines.main",
+        {url:"#",name:"Customers",icon:"la la-user",slug:"customers"},
+
+
+
+        {url:"#",name:"Reports",icon:"la la-bar-chart",slug:"reports-pages", i18n:"nav.reports.main",
 
           submenu:[
-            {url:"timeline-center.html",name:"Timelines Center",slug:"timeline-center", i18n:"nav.timelines.timeline_center"},
-            {url:"timeline-left.html",name:"Timelines Left",slug:"timeline-left", i18n:"nav.timelines.timeline_left"},
-            {url:"timeline-right.html",name:"Timelines Right",slug:"timeline-right", i18n:"nav.timelines.timeline_right"},
-            {url:"timeline-horizontal.html",name:"Timelines Horizontal",slug:"timeline-horizontal", i18n:"nav.timelines.timeline_horizontal"}
+            {url:"#",name:"Customer Reports",slug:"customer-reports", i18n:"nav.reports.customer_reports"},
+            {url:"#",name:"Document Reports",slug:"document-reports", i18n:"nav.reports.document_reports"},
+            {url:"#",name:"Notification Reports",slug:"notification-reports", i18n:"nav.reports.notification_reports"}
           ]
         },
 
 
 
-        {url:"#",name:"Users",icon:"la la-user",slug:"user-pages", i18n:"nav.users.main",
+      {navheader:"Customer Site",icon:"la la-ellipsis-h", i18n:"nav.category.customer_site"},
+
+
+
+        {url:"#",name:"Appearance",icon:"la la-paint-brush",slug:"appearance-pages", i18n:"nav.appearance.main",
 
           submenu:[
-            {url:"user-profile.html",name:"Users Profile",slug:"user-profile", i18n:"nav.users.user_profile"},
-            {url:"user-cards.html",name:"Users Cards",slug:"user-cards", i18n:"nav.users.user_cards"},
-            {url:"users-contacts.html",name:"Users List",slug:"users-contacts", i18n:"nav.users.users_contacts"}
+            {url:"#",name:"Brand Settings",slug:"brand-settings", i18n:"nav.appearance.brand_settings"},
+            {url:"#",name:"Site Menu",slug:"site-menu", i18n:"nav.appearance.site_menu"},
           ]
         },
 
 
 
-        {url:"#",name:"Gallery",icon:"la la-image",slug:"gallery-pages", i18n:"nav.gallery_pages.main",
+        {url:"#",name:"Content",icon:"la la-list",slug:"content-pages", i18n:"nav.content.main",
 
           submenu:[
-            {url:"gallery-grid.html",name:"Gallery Grid",slug:"gallery-grid", i18n:"nav.gallery_pages.gallery_grid"},
-            {url:"gallery-grid-with-desc.html",name:"Gallery Grid with Desc",slug:"gallery-grid-with-desc", i18n:"nav.gallery_pages.gallery_grid_with_desc"},
-            {url:"gallery-masonry.html",name:"Masonry Gallery",slug:"gallery-masonry", i18n:"nav.gallery_pages.gallery_masonry"},
-            {url:"gallery-masonry-with-desc.html",name:"Masonry Gallery with Desc",slug:"gallery-masonry-with-desc", i18n:"nav.gallery_pages.gallery_masonry_with_desc"},
-            {url:"gallery-hover-effects.html",name:"Hover Effects",slug:"gallery-hover-effects", i18n:"nav.gallery_pages.gallery_hover_effects"}
+            {url:"#",name:"Sidebar",slug:"sidebar", i18n:"nav.content.sidebar"},
+            {url:"#",name:"Banner",slug:"banner", i18n:"nav.content.banner"},
+            {url:"#",name:"Consent",slug:"consent", i18n:"nav.content.consent"},
+            {url:"#",name:"Support",slug:"support", i18n:"nav.content.support"},
+            {url:"#",name:"FAQs",slug:"faqs", i18n:"nav.content.faqs"}
           ]
         },
 
 
 
-        {url:"#",name:"Search",icon:"la la-search",slug:"search-pages", i18n:"nav.search_pages.main",
+        {url:"#",name:"Settings",icon:"la la-gear",slug:"settings", i18n:"nav.settings.main",
 
           submenu:[
-            {url:"search-page.html",name:"Search Page",slug:"search-page", i18n:"nav.search_pages.search_page"},
-            {url:"search-website.html",name:"Search Website",slug:"search-website", i18n:"nav.search_pages.search_website"},
-            {url:"search-images.html",name:"Search Images",slug:"search-images", i18n:"nav.search_pages.search_images"},
-            {url:"search-videos.html",name:"Search Videos",slug:"search-videos", i18n:"nav.search_pages.search_videos"}
+            {url:"#",name:"Domain URLs",slug:"domain-urls", i18n:"nav.settings.domain_urls"},
+            {url:"#",name:"Customer Access",slug:"customer-access", i18n:"nav.settings.customer_access"}
           ]
         },
 
 
 
-        {url:"#",name:"Authentication",icon:"la la-unlock",slug:"login-register-pages", i18n:"nav.login_register_pages.main",
-
-          submenu:[
-            {url:"login-simple.html",name:"Login Simple",slug:"login-simple", i18n:"nav.login_register_pages.login_simple"},
-            {url:"login-with-bg.html",name:"Login with Bg",slug:"login-with-bg", i18n:"nav.login_register_pages.login_with_bg"},
-            {url:"login-with-bg-image.html",name:"Login with Bg Image",slug:"login-with-bg-image", i18n:"nav.login_register_pages.login_with_bg_image"},
-            {url:"login-with-navbar.html",name:"Login with Navbar",slug:"login-with-navbar", i18n:"nav.login_register_pages.login_with_navbar"},
-            {url:"login-advanced.html",name:"Login Advanced",slug:"login-advanced", i18n:"nav.login_register_pages.login_advanced"},
-
-            {url:"register-simple.html",name:"Register Simple",slug:"register-simple", i18n:"nav.login_register_pages.register_simple"},
-            {url:"register-with-bg.html",name:"Register with Bg",slug:"register-with-bg", i18n:"nav.login_register_pages.register_with_bg"},
-            {url:"register-with-bg-image.html",name:"Register with Bg Image",slug:"register-with-bg-image", i18n:"nav.login_register_pages.register_with_bg_image"},
-            {url:"register-with-navbar.html",name:"Register with Navbar",slug:"register-with-navbar", i18n:"nav.login_register_pages.register_with_navbar"},
-            {url:"register-advanced.html",name:"Register Advanced",slug:"register-advanced", i18n:"nav.login_register_pages.register_advanced"},
-
-            {url:"unlock-user.html",name:"Unlock User",slug:"unlock-user", i18n:"nav.login_register_pages.unlock_user"},
-            {url:"recover-password.html",name:"recover-password",slug:"recover-password", i18n:"nav.login_register_pages.recover_password"},
-          ]
-        },
+      {navheader:"Admin Portal",icon:"la la-ellipsis-h", i18n:"nav.category.admin_portal"},
 
 
 
-        {url:"#",name:"Error",icon:"la la-warning",slug:"error-pages", i18n:"nav.error_pages.main",
+      {url:"#",name:"Users & Access",icon:"la la-lock",slug:"users-access"},
 
-          submenu:[
-            {url:"error-400.html",name:"Error 400",slug:"error-400", i18n:"nav.error_pages.error_400"},
-            {url:"error-400-with-navbar.html",name:"Error 400 with Navbar",slug:"error-400-with-navbar", i18n:"nav.error_pages.error_400_with_navbar"},
-            {url:"error-401.html",name:"Error 401",slug:"error-401", i18n:"nav.error_pages.error_401"},
-            {url:"error-401-with-navbar.html",name:"Error 401 with Navbar",slug:"error-401-with-navbar", i18n:"nav.error_pages.error_401_with_navbar"},
-            {url:"error-403.html",name:"Error 403",slug:"error-403", i18n:"nav.error_pages.error_403"},
-            {url:"error-403-with-navbar.html",name:"Error 403 with Navbar",slug:"error-403-with-navbar", i18n:"nav.error_pages.error_403_with_navbar"},
-            {url:"error-404.html",name:"Error 404",slug:"error-404", i18n:"nav.error_pages.error_404"},
-            {url:"error-404-with-navbar.html",name:"Error 404 with Navbar",slug:"error-404-with-navbar", i18n:"nav.error_pages.error_404_with_navbar"},
-            {url:"error-500.html",name:"Error 500",slug:"error-500", i18n:"nav.error_pages.error_500"},
-            {url:"error-500-with-navbar.html",name:"Error 500 with Navbar",slug:"error-500-with-navbar", i18n:"nav.error_pages.error_500_with_navbar"},
-          ]
-        },
-
-
-
-        {url:"#",name:"Others",icon:"la la-file-text",slug:"other-pages", i18n:"nav.other_pages.main",
-
-          submenu:[
-            {url:"#",name:"Coming Soon",slug:"coming-soon", i18n:"nav.other_pages.coming_soon.main",
-              submenu:[
-                {url:"coming-soon-flat.html", name:"Flat",icon:"", slug:"coming-soon-flat", i18n:"nav.other_pages.coming_soon.coming_soon_flat"},
-                {url:"coming-soon-bg-image.html", name:"Bg image",icon:"", slug:"coming-soon-bg-image", i18n:"nav.other_pages.coming_soon.coming_soon_bg_image"},
-                {url:"coming-soon-bg-video.html", name:"Bg video",icon:"", slug:"coming-soon-bg-video", i18n:"nav.other_pages.coming_soon.coming_soon_bg_video"},
-              ]
-            },
-            {url:"under-maintenance.html",name:"Maintenance",slug:"under-maintenance", i18n:"nav.other_pages.under_maintenance"},
-          ]
-        },
-
-
-
-
-      {navheader:"User Interface",icon:"la la-ellipsis-h", i18n:"nav.category.ui"},
-
-
-        {url:"#", name:"Cards",icon:"", slug:"card-bootstrap",icon:"la la-tablet", i18n:"nav.cards.main",tag:"New" , tagcustom: "badge badge-success float-right mr-2",
-          submenu:[
-            {url:"card-bootstrap.html", name:"Bootstrap",icon:"", slug:"card-bootstrap", i18n:"nav.cards.card_bootstrap"},
-            {url:"card-headings.html", name:"Headings",icon:"", slug:"card-headings", i18n:"nav.cards.card_headings"},
-            {url:"card-options.html", name:"Options",icon:"", slug:"card-options", i18n:"nav.cards.card_options"},
-            {url:"card-actions.html", name:"Action",icon:"", slug:"card-actions", i18n:"nav.cards.card_actions"},
-            {url:"card-draggable.html", name:"Draggable",icon:"", slug:"card-draggable", i18n:"nav.cards.card_draggable"},
-          ]
-        },
-
-        {url:"#", name:"Advance Cards", slug:"card-advance", icon:"la la-fire", i18n:"nav.advance_cards.main",
-          submenu:[
-            {url:"card-statistics.html", name:"Statistics",icon:"", slug:"card-statistics", i18n:"nav.cards.card_statistics"},
-            {url:"card-weather.html", name:"Weather",icon:"", slug:"card-weather", i18n:"nav.cards.card_weather"},
-            {url:"card-charts.html", name:"Charts",icon:"", slug:"card-charts", i18n:"nav.cards.card_charts"},
-            {url:"card-interactive.html", name:"Interactive",icon:"", slug:"card-interactive", i18n:"nav.cards.card_interactive"},
-            {url:"card-maps.html", name:"Maps",icon:"", slug:"card-maps", i18n:"nav.cards.card_maps"},
-            {url:"card-social.html", name:"Social",icon:"", slug:"card-social", i18n:"nav.cards.card_social"},
-            {url:"card-ecommerce.html", name:"E-Commerce",icon:"", slug:"card-ecommerce", i18n:"nav.cards.card_ecommerce"},
-          ]
-        },
-
-        {url:"#", name:"Content", icon:"la la-compass", slug:"", i18n:"nav.content.main",
-          submenu:[
-            {url:"content-grid.html", name:"Grid", icon:"", slug:"content-grid", i18n:"nav.content.content_grid"},
-            {url:"content-typography.html", name:"Typography", icon:"", slug:"content-typography", i18n:"nav.content.content_typography"},
-            {url:"content-text-utilities.html", name:"Text utilities", icon:"", slug:"content-text-utilities", i18n:"nav.content.content_text_utilities"},
-            {url:"content-syntax-highlighter.html", name:"Syntax highlighter", icon:"", slug:"content-syntax-highlighter", i18n:"nav.content.content_syntax_highlighter"},
-            {url:"content-helper-classes.html", name:"Helper classes", icon:"", slug:"content-helper-classes", i18n:"nav.content.content_helper_classes"},
-          ]
-        },
-
-        {url:"#", name:"Components", icon:"la la-server", slug:"", i18n:"nav.components.main",
-          submenu:[
-            {url:"component-alerts.html", name:"Alerts",icon:"", slug:"component-alerts", i18n:"nav.components.component_alerts"},
-            {url:"component-callout.html", name:"Callout",icon:"", slug:"component-callout", i18n:"nav.components.component_callout"},
-            {url:"#", name:"Buttons",icon:"", slug:"components-buttons", i18n:"nav.components.components_buttons.main",
-              submenu:[
-                {url:"component-buttons-basic.html", name:"Basic Buttons",icon:"", slug:"component-buttons-basic", i18n:"nav.components.components_buttons.component_buttons_basic"},
-                {url:"component-buttons-extended.html", name:"Extended Buttons",icon:"", slug:"component-buttons-extended", i18n:"nav.components.components_buttons.component_buttons_extended"},
-              ]
-            },
-            {url:"component-carousel.html", name:"Carousel",icon:"", slug:"component-carousel", i18n:"nav.components.component_carousel"},
-            {url:"component-collapse.html", name:"Collapse",icon:"", slug:"component-collapse", i18n:"nav.components.component_collapse"},
-            {url:"component-dropdowns.html", name:"Dropdowns",icon:"", slug:"component-dropdowns", i18n:"nav.components.component_dropdowns"},
-            {url:"component-list-group.html", name:"List Group",icon:"", slug:"component-list-group", i18n:"nav.components.component_list_group"},
-            {url:"component-modals.html", name:"Modals",icon:"", slug:"component-modals", i18n:"nav.components.component_modals"},
-            {url:"component-pagination.html", name:"Pagination",icon:"", slug:"component-pagination", i18n:"nav.components.component_pagination"},
-            {url:"component-navs-component.html", name:"Navs Component",icon:"", slug:"component-navs-component", i18n:"nav.components.component_navs_component"},
-            {url:"component-tabs-component.html", name:"Tabs Component",icon:"", slug:"component-tabs-component", i18n:"nav.components.component_tabs_component"},
-            {url:"component-pills-component.html", name:"Pills Component",icon:"", slug:"component-pills-component", i18n:"nav.components.component_pills_component"},
-            {url:"component-tooltips.html", name:"Tooltips",icon:"", slug:"component-tooltips", i18n:"nav.components.component_tooltips"},
-            {url:"component-popovers.html", name:"Popovers",icon:"", slug:"component-popovers", i18n:"nav.components.component_popovers"},
-            {url:"component-badges.html", name:"Badges",icon:"", slug:"component-badges", i18n:"nav.components.component_badges"},
-            {url:"component-pill-badges.html", name:"Pill Badges",icon:"", slug:"component-pill-badges"},
-            {url:"component-progress.html", name:"Progress",icon:"", slug:"component-progress", i18n:"nav.components.component_progress"},
-            {url:"component-media-objects.html", name:"Media Objects",icon:"", slug:"component-media-objects", i18n:"nav.components.component_media_objects"},
-            {url:"component-scrollable.html", name:"Scrollable",icon:"", slug:"component-scrollable", i18n:"nav.components.component_scrollable"},
-            {url:"component-spinners.html", name:"Spinners",icon:"", slug:"component-spinners", i18n:"nav.components.component_spinners"},
-          ]
-        },
-
-        {url:"#", name:"Extra Components", icon:"la la-diamond", slug:"", i18n:"nav.extra_components.main",
-          submenu:[
-            {url:"ex-component-sweet-alerts.html", name:"Sweet Alerts", icon:"", slug:"ex-component-sweet-alerts", i18n:"nav.extra_components.ex_component_sweet_alerts"},
-            {url:"ex-component-tree-views.html", name:"Tree Views", icon:"", slug:"ex-component-tree-views", i18n:"nav.extra_components.ex_component_tree_views"},
-            {url:"ex-component-toastr.html", name:"Toastr", icon:"", slug:"ex-component-toastr", i18n:"nav.extra_components.ex_component_toastr"},
-            {url:"ex-component-ratings.html", name:"Ratings", icon:"", slug:"ex-component-ratings", i18n:"nav.extra_components.ex_component_ratings"},
-            {url:"ex-component-noui-slider.html", name:"NoUI Slider", icon:"", slug:"ex-component-noui-slider", i18n:"nav.extra_components.ex_component_noui_slider"},
-            {url:"ex-component-date-time-dropper.html", name:"Date Time Dropper", icon:"", slug:"ex-component-date-time-dropper", i18n:"nav.extra_components.ex_component_date_time_dropper"},
-            {url:"ex-component-lists.html", name:"Lists", icon:"", slug:"ex-component-lists", i18n:"nav.extra_components.ex_component_lists"},
-            {url:"ex-component-toolbar.html", name:"Toolbar", icon:"", slug:"ex-component-toolbar", i18n:"nav.extra_components.ex_component_toolbar"},
-            {url:"ex-component-knob.html", name:"Knob", icon:"", slug:"ex-component-knob", i18n:"nav.extra_components.ex_component_knob"},
-            {url:"ex-component-long-press.html", name:"Long Press", icon:"", slug:"ex-component-long-press", i18n:"nav.extra_components.ex_component_long_press"},
-            {url:"ex-component-offline.html", name:"Offline", icon:"", slug:"ex-component-offline", i18n:"nav.extra_components.ex_component_offline"},
-            {url:"ex-component-zoom.html", name:"Zoom", icon:"", slug:"ex-component-zoom", i18n:"nav.extra_components.ex_component_zoom"},
-          ]
-        },
-
-        {url:"#", name:"Icons", icon:"la la-eye", slug:"", i18n:"nav.icons.main",
-          submenu:[
-            {url:"icons-feather.html", name:"Feather", icon:"", slug:"icons-feather", i18n:"nav.icons.icons_feather"},
-            {url:"icons-line-awesome.html", name:"Line Awesome", icon:"", slug:"icons-line-awesome", i18n:"nav.icons.icons_line_awesome"},
-            {url:"icons-meteocons.html", name:"Meteocons", icon:"", slug:"icons-meteocons", i18n:"nav.icons.icons_meteocons"},
-            {url:"icons-simple-line-icons.html", name:"Simple Line Icons", icon:"", slug:"icons-simple-line-icons", i18n:"nav.icons.icons_linecons"},
-          ]
-        },
-        {url:"animation.html", name:"Animation", icon:"la la-spinner spinner", slug:"animation", i18n:"nav.animation.main"},
 
 
     ])

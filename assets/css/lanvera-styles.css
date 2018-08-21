@@ -1,16 +1,11 @@
 /*================================================================================
-	Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
+	Item Name: Lanvera Custom Styles
 	Version: 1.0
-	Author: PIXINVENT
-	Author URL: http://www.themeforest.net/user/pixinvent
-================================================================================
+	Author: Lanvera
+	Author URL: http://www.lanvera.com
+================================================================================*/
 
-NOTE:
-------
-PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
-WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
-
-body, code, kbd, pre, samp, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .breadcrumb, .header-navbar, .navigation {
+body, code, kbd, pre, samp, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .breadcrumb, .header-navbar {
      font-family: 'Barlow', sans-serif;
 }
 
@@ -18,26 +13,96 @@ body, code, kbd, pre, samp, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
      font-family: 'Rubik', sans-serif;
 }
 
+.main-menu.menu-dark .navigation>li.open>a {
+     color: rgba(230, 230, 230, 0.7);
+     background: #364b77;
+     border-right: 0px solid #1E9FF2;
+}
 
-.main-menu.menu-dark .navigation > li.open .hover > a {
-  -webkit-transform: translateX(0px);
+.main-menu.menu-dark .navigation>li.open .hover>a {
+     -webkit-transform: translateX(0px);
      -moz-transform: translateX(0px);
-      -ms-transform: translateX(0px);
-       -o-transform: translateX(0px);
-          transform: translateX(0px); }
-.main-menu.menu-dark .navigation > li:not(.open) > ul {
-  display: none; }
-.main-menu.menu-dark .navigation > li.hover > a, .main-menu.menu-dark .navigation > li:hover > a, .main-menu.menu-dark .navigation > li.active > a {
-  color: #ffffff; }
-  .main-menu.menu-dark .navigation > li.hover > a > i, .main-menu.menu-dark .navigation > li:hover > a > i, .main-menu.menu-dark .navigation > li.active > a > i {
-    -webkit-transform: translateX(0px);
-       -moz-transform: translateX(0px);
-        -ms-transform: translateX(0px);
-         -o-transform: translateX(0px);
-            transform: translateX(0px); }
-  .main-menu.menu-dark .navigation > li.hover > a > span, .main-menu.menu-dark .navigation > li:hover > a > span, .main-menu.menu-dark .navigation > li.active > a > span {
-    -webkit-transform: translateX(0px);
-       -moz-transform: translateX(0px);
-        -ms-transform: translateX(0px);
-         -o-transform: translateX(0px);
-            transform: translateX(0px); }
+     -ms-transform: translateX(0px);
+     -o-transform: translateX(0px);
+     transform: translateX(0px);
+}
+
+.main-menu.menu-dark .navigation>li:not(.open)>ul {
+     display: none;
+}
+
+.main-menu.menu-dark .navigation>li.hover>a, .main-menu.menu-dark .navigation>li:hover>a, .main-menu.menu-dark .navigation>li.active>a {
+     color: #fff;
+}
+
+.main-menu.menu-dark .navigation>li.hover>a>i, .main-menu.menu-dark .navigation>li:hover>a>i, .main-menu.menu-dark .navigation>li.active>a>i {
+     -webkit-transform: translateX(0px);
+     -moz-transform: translateX(0px);
+     -ms-transform: translateX(0px);
+     -o-transform: translateX(0px);
+     transform: translateX(0px);
+}
+
+.main-menu.menu-dark .navigation>li.hover>a>span, .main-menu.menu-dark .navigation>li:hover>a>span, .main-menu.menu-dark .navigation>li.active>a>span {
+     -webkit-transform: translateX(0px);
+     -moz-transform: translateX(0px);
+     -ms-transform: translateX(0px);
+     -o-transform: translateX(0px);
+     transform: translateX(0px);
+}
+
+body.vertical-layout.vertical-menu.menu-expanded .main-menu .navigation li.has-sub>a:not(.mm-next):after {
+     font-size: .8rem;
+     display: inline-block;
+     position: absolute;
+     right: 16px;
+     top: 15px;
+     -webkit-transform: rotate(0deg);
+     -moz-transform: rotate(0deg);
+     -ms-transform: rotate(0deg);
+     -o-transform: rotate(0deg);
+     transform: rotate(0deg);
+     -webkit-transition: -webkit-transform 0.2s ease-in-out;
+     transition: -webkit-transform 0.2s ease-in-out;
+}
+
+body.vertical-layout.vertical-menu.menu-expanded .main-menu .navigation li.has-sub .has-sub>a:not(.mm-next):after {
+     top: 8px;
+}
+
+body.vertical-layout.vertical-menu.menu-expanded .main-menu .navigation li.open>a:not(.mm-next):after {
+     -webkit-transform: rotate(90deg);
+     -moz-transform: rotate(90deg);
+     -ms-transform: rotate(90deg);
+     -o-transform: rotate(90deg);
+     transform: rotate(90deg);
+}
+
+.navbar-brand {
+     padding: 17px 0px;
+     margin-right: 0;
+}
+
+.navbar-brand .brand-logo {
+     width: 36px;
+}
+
+.navbar-brand .brand-text {
+     display: inline;
+     padding-left: 6px;
+     font-weight: 500;
+     vertical-align: middle;
+}
+
+body.vertical-layout.vertical-menu.menu-expanded .navbar .navbar-header {
+     width: 0px;
+}
+
+
+.main-menu.menu-dark .navigation .navigation-header {
+     color: rgba(255, 255, 255, 0.5);
+     letter-spacing: 2px;
+     padding: 20px 20px 8px 20px;
+     margin-top: 20px;
+     margin-bottom: 10px;
+}

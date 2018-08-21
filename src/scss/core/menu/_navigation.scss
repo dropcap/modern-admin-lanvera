@@ -30,7 +30,7 @@
     &.menu-fixed{
         position: fixed;
         height: 100%; /* fallback if needed */
-        top: $navbar-height; 
+        top: $navbar-height;
         height: calc(100% - #{$navbar-height});
         .main-menu-footer{
             position:fixed;
@@ -43,7 +43,7 @@
     &.menu-border{
         border-right: 1px solid #E4E7ED;
     }
-        
+
 
     // Native Scrollbar (.menu-native-scroll)
     &.menu-native-scroll {
@@ -77,7 +77,7 @@
         margin: 0;
         padding: 0;
         &.navigation-main{
-            overflow-x: hidden; 
+            overflow-x: hidden;
         }
     }
 
@@ -92,17 +92,19 @@
 // Main Navigation
 .navigation {
     font-size: 1.1rem;
-    letter-spacing: 0.2px;
-    font-family: $font-family-monospace;
-    font-weight: 400;
+    letter-spacing: 0.1px;
+    font-family: $font-family-sans-serif;
+    font-weight: 600;
     overflow-y: hidden;
     padding-bottom: 20px;
     .navigation-header {
-        font-family: $font-family-monospace;
+        font-family: $font-family-sans-serif;
         font-weight: $headings-font-weight;
         line-height: $headings-line-height;
         padding: 12px 22px;
         font-size: 1rem;
+        text-transform: uppercase;
+        border-top: 2px solid rgba(0, 0, 0, 0.2);
     }
     li {
         position: relative;
