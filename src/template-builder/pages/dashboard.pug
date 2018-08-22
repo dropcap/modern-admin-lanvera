@@ -1,0 +1,25 @@
+//- =========================================================================================
+	File Name: dashboard.pug
+	Description: Dashboard
+	----------------------------------------------------------------------------------------
+	Item Name: Lanvera Components
+	Version: 1.0
+	Author: Lanvera
+	Author URL: http://www.lanvera.com
+	==========================================================================================
+
+
+extends template
+
+block pageVars
+	- var pageTitle = "Dashboard"
+	- var pageSubTitle = "Check out this dashboard"
+	- var description = "This tells you what the page does"
+	- var activeMenu = "dashboard"
+
+block breadcrumbs
+//- 	+breadcrumbs([{url:"index.html",name:"Home"}, {name:"Dashboard"}])
+
+//- Include page content in page block
+append content
+	include ../contents/dashboard.html

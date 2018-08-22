@@ -1,0 +1,15 @@
+
+extends template
+
+block pageVars
+	- var pageTitle = "Sidebar"
+	- var pageSubTitle = "Subtitle"
+	- var description = "This tells you what the page does"
+	- var activeMenu = "content-sidebar"
+
+block breadcrumbs
+	+breadcrumbs([{url:"index.html",name:"Home"}, {name:"sidebar"}])
+
+//- Include page content in page block
+append content
+	include ../contents/content-sidebar.html

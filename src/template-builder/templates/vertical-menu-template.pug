@@ -35,7 +35,7 @@ block verticalMenuConfig
 
 block footerConfig
 	- var footerType = "footer-static"
-	- var footerColor = "footer-dark"
+	- var footerColor = "footer-light"
 	- var footerBorder = true
 	- var footerShadow = true
 
@@ -57,10 +57,10 @@ block main-menu
 
 block page-header
 	if blankPage != true
-		include ../pages/page-headers/breadcrumbs-bottom
+		include ../pages/page-headers/lanvera-header
 
 block footer
-	include sections/footer/footer
+	include sections/footer/footer-lanvera
 
 //- Template specific dependency
 //------------------------------

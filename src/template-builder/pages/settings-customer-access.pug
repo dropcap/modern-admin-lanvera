@@ -1,0 +1,15 @@
+
+extends template
+
+block pageVars
+	- var pageTitle = "Customer Access"
+	- var pageSubTitle = "Subtitle"
+	- var description = "This tells you what the page does"
+	- var activeMenu = "settings-customer-access"
+
+block breadcrumbs
+	+breadcrumbs([{url:"index.html",name:"Home"}, {name:"Customer Access"}])
+
+//- Include page content in page block
+append content
+	include ../contents/settings-customer-access.html

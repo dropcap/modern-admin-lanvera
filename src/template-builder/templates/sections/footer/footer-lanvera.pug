@@ -1,0 +1,12 @@
+//-
+	Modifiers :
+	.footer-fixed : For fixed footer
+	.footer-dark, .footer-dark, footer-transparent : For footer light, dark & transparent option
+
+footer(class="footer " + footerType +' ' + footerColor, class=(footerBorder == false ? 'navbar-border' : ''), class=(footerShadow == false ? 'navbar-shadow' : ''))
+	p.clearfix.blue-grey.lighten-2.text-sm-center.mb-0.px-2(class= (centerLayout == true ? 'container center-layout' : ''))
+		span.float-md-left.d-block.d-md-inline-block
+			| &copy;#{new Date().getFullYear()} 
+			a(href='#', target='_blank', class="text-bold-800 grey darken-2") Lanvera
+		span.float-md-right.d-block.d-md-inline-block
+			| All rights reserved

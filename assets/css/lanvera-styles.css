@@ -106,3 +106,7 @@ body.vertical-layout.vertical-menu.menu-expanded .navbar .navbar-header {
      margin-top: 20px;
      margin-bottom: 10px;
 }
+
+footer.footer-light {
+  background: rgba(255, 255, 255, 0);
+}
