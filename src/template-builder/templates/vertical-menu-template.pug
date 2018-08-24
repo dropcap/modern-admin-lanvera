@@ -50,14 +50,14 @@ block header
 	else if(headerType == 'header-simple')
 		include ../templates/sections/header/header-simple
 	else
-		include sections/header/header
+		include sections/header/header-epresentment
 
 block main-menu
 	include sections/menu/vertical-menu
 
 block page-header
 	if blankPage != true
-		include ../pages/page-headers/lanvera-header
+		include ../pages/page-headers/breadcrumbs-with-button
 
 block footer
 	include sections/footer/footer-lanvera

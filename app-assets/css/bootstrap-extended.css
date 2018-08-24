@@ -260,10 +260,10 @@ form {
     form .form-control:-ms-input-placeholder {
       color: #aeb5da; }
   form .form-section {
-    color: #3c5485;
+    color: #474572;
     line-height: 3rem;
     margin-bottom: 20px;
-    border-bottom: 1px solid #3c5485; }
+    border-bottom: 1px solid #474572; }
     form .form-section i {
       font-size: 20px;
       margin-left: 5px;
@@ -805,7 +805,7 @@ select.form-control {
     z-index: 999; }
   .header-navbar .navbar-header {
     height: 100%;
-    width: 260px;
+    width: 0px;
     height: 5rem;
     float: left;
     position: relative;
@@ -815,10 +815,16 @@ select.form-control {
          -o-transition: 300ms ease all;
             transition: 300ms ease all; }
     .header-navbar .navbar-header .navbar-brand {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
       padding: 17px 0px;
       margin-right: 0; }
       .header-navbar .navbar-header .navbar-brand .brand-logo {
-        width: 36px; }
+        max-width: 142px;
+        vertical-align: middle; }
       .header-navbar .navbar-header .navbar-brand .brand-text {
         display: inline;
         padding-left: 6px;
@@ -917,13 +923,13 @@ select.form-control {
     color: #6B6F82; }
 
 .navbar-dark {
-  background: #233052; }
+  background: #282827; }
   .navbar-dark.navbar-horizontal {
-    background: #233052; }
+    background: #282827; }
   .navbar-dark .nav-search .form-control,
   .navbar-dark .nav-search .btn-secondary {
     color: #FFFFFF;
-    background: #233052; }
+    background: #282827; }
   .navbar-dark .navbar-brand .brand-text {
     color: #FFFFFF !important; }
   .navbar-dark .navbar-nav li {
@@ -936,7 +942,7 @@ select.form-control {
 .navbar-semi-dark {
   background: #FFFFFF; }
   .navbar-semi-dark .navbar-header {
-    background: #233052; }
+    background: #282827; }
     .navbar-semi-dark .navbar-header .brand-text {
       color: #FFFFFF; }
   .navbar-semi-dark .navbar-nav li {
@@ -1176,7 +1182,7 @@ select.form-control {
     color: #6B6F82; }
   .navbar-light .navbar-header .navbar-nav .nav-link,
   .navbar-semi-light .navbar-header .navbar-nav .nav-link {
-    color: #233052; }
+    color: #282827; }
   .navbar-light .navbar-container .navbar-nav .nav-link,
   .navbar-semi-light .navbar-container .navbar-nav .nav-link {
     color: #6B6F82; } }

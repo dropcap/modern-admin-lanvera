@@ -1,0 +1,82 @@
+// fixed-top
+nav.header-navbar.navbar-expand-md.navbar.navbar-with-menu.navbar-without-dd-arrow(class=navbarPosition + ' ' + navbarColor, class=(navbarHideOnScroll == true ? 'navbar-hide-on-scroll' : ''), class=(navbarBorder == true ? 'navbar-border' : ''), class=(navbarShadow == true ? 'navbar-shadow' : ''), class=(navbarBrandCenter == true ? 'navbar-brand-center' : ''), class=(boxedLayout == true ? 'container boxed-layout' : ''))
+  .navbar-wrapper
+    .navbar-header.d-block.d-md-none.d-xl-none
+      ul.nav.navbar-nav.d-flex.flex-row.align-items-center
+        li.nav-item.mobile-menu.d-md-none.mr-1.ml-1
+          a.nav-link.nav-menu-main.menu-toggle.hidden-xs(href='#')
+              i.ft-menu.font-large-1
+        li.nav-item
+          a.nav-link
+            img(class='brand-image' href='index.html' alt='lanvera logo' src=(logoType == 'dark' ? '../../../assets/images/logo/lanvera-logo-reverse.svg' : '../../../assets/images/logo/lanvera-logo-reverse.svg'))
+        li.nav-item.ml-auto.d-md-none
+          a.nav-link.open-navbar-container(data-toggle='collapse', data-target='#navbar-mobile')
+            i.la.la-ellipsis-v
+    .navbar-container(class= (centerLayout == false ? 'container center-layout' : 'content'))
+      #navbar-mobile.collapse.navbar-collapse
+        ul.nav.navbar-nav.mr-auto.float-left
+          li.nav-item.d-none.d-md-block
+            a.nav-link.nav-menu-main.menu-toggle.hidden-xs(href='#')
+              i.ft-menu
+          li.nav-item.d-block
+            a.nav-link.pl-0
+              img(class='brand-image' href='index.html' alt='lanvera logo' src=(logoType == 'dark' ? '../../../assets/images/logo/lanvera-logo-reverse.svg' : '../../../assets/images/logo/lanvera-logo-reverse.svg'))
+        ul.nav.navbar-nav.float-right
+          li.nav-item.d-none.d-md-block
+            a.nav-link.nav-link-expand(href='#')
+              i.ficon.ft-maximize
+          li.dropdown.dropdown-notification.nav-item
+            a.nav-link.nav-link-label(href='#', data-toggle='dropdown')
+              i.ficon.ft-mail
+            ul.dropdown-menu.dropdown-menu-media.dropdown-menu-right
+              li.dropdown-menu-header
+                h6.dropdown-header.m-0
+                  span.grey.darken-2 Messages
+                span.notification-tag.badge.badge-default.badge-warning.float-right.m-0 4 New
+              li.scrollable-container.media-list.w-100
+                a(href='javascript:void(0)')
+                  .media
+                    .media-left
+                      span.avatar.avatar-sm.avatar-online.rounded-circle
+                        img(src='../../../app-assets/images/portrait/small/avatar-s-19.png', alt='avatar')
+                        i
+                    .media-body
+                      h6.media-heading Margaret Govan
+                      p.notification-text.font-small-3.text-muted I like your portfolio, let's start.
+                      small
+                        time.media-meta.text-muted(datetime='2015-06-11T18:29:20+08:00') Today
+                a(href='javascript:void(0)')
+                  .media
+                    .media-left
+                      span.avatar.avatar-sm.avatar-busy.rounded-circle
+                        img(src='../../../app-assets/images/portrait/small/avatar-s-2.png', alt='avatar')
+                        i
+                    .media-body
+                      h6.media-heading Bret Lezama
+                      p.notification-text.font-small-3.text-muted I have seen your work, there is
+                      small
+                        time.media-meta.text-muted(datetime='2015-06-11T18:29:20+08:00') Tuesday
+                a(href='javascript:void(0)')
+                  .media
+                    .media-left
+                      span.avatar.avatar-sm.avatar-online.rounded-circle
+                        img(src='../../../app-assets/images/portrait/small/avatar-s-3.png', alt='avatar')
+                        i
+                    .media-body
+                      h6.media-heading Carie Berra
+                      p.notification-text.font-small-3.text-muted Can we have call in this week ?
+                      small
+                        time.media-meta.text-muted(datetime='2015-06-11T18:29:20+08:00') Friday
+                a(href='javascript:void(0)')
+                  .media
+                    .media-left
+                      span.avatar.avatar-sm.avatar-away.rounded-circle
+                        img(src='../../../app-assets/images/portrait/small/avatar-s-6.png', alt='avatar')
+                        i
+                    .media-body
+                      h6.media-heading Eric Alsobrook
+                      p.notification-text.font-small-3.text-muted We have project party this saturday.
+                      small
+                        time.media-meta.text-muted(datetime='2015-06-11T18:29:20+08:00') last month
+              li.dropdown-menu-footer
+                a.dropdown-item.text-muted.text-center(href='javascript:void(0)') Read all messages

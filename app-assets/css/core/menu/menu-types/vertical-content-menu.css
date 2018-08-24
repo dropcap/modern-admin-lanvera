@@ -58,8 +58,8 @@
         -ms-transform: rotate(0deg);
          -o-transform: rotate(0deg);
             transform: rotate(0deg);
-    -webkit-transition: -webkit-transform 0.9s ease-in-out;
-            transition: -webkit-transform 0.9s ease-in-out; }
+    -webkit-transition: -webkit-transform 0.1s ease-in-out;
+            transition: -webkit-transform 0.1s ease-in-out; }
   .vertical-content-menu.menu-expanded .main-menu .navigation li.has-sub .has-sub > a:not(.mm-next):after {
     top: 8px; }
   .vertical-content-menu.menu-expanded .main-menu .navigation li.open > a:not(.mm-next):after {
@@ -115,7 +115,7 @@
   margin-left: 260px; }
 
 .vertical-content-menu.menu-collapsed .main-menu {
-  width: 65px;
+  width: 0px;
   -webkit-transform: translateZ(-160px) translateX(-160px);
      -moz-transform: translateZ(-160px) translateX(-160px);
           transform: translateZ(-160px) translateX(-160px);
@@ -147,7 +147,7 @@
     border-color: #1E9FF2;
     padding: 14px 20px; }
   .vertical-content-menu.menu-collapsed .main-menu .main-menu-content > ul.menu-content {
-    left: 65px;
+    left: 0px;
     width: 260px;
     -webkit-transition: visibility .25s,opacity .25s;
        -moz-transition: visibility .25s,opacity .25s;
@@ -180,8 +180,8 @@
             -ms-transform: rotate(0deg);
              -o-transform: rotate(0deg);
                 transform: rotate(0deg);
-        -webkit-transition: -webkit-transform 0.9s ease-in-out;
-                transition: -webkit-transform 0.9s ease-in-out; }
+        -webkit-transition: -webkit-transform 0.1s ease-in-out;
+                transition: -webkit-transform 0.1s ease-in-out; }
       .vertical-content-menu.menu-collapsed .main-menu .main-menu-content > ul.menu-content li.has-sub .has-sub > a:not(.mm-next):after {
         top: 8px; }
       .vertical-content-menu.menu-collapsed .main-menu .main-menu-content > ul.menu-content li.open > a:not(.mm-next):after {
@@ -241,7 +241,7 @@
     overflow: visible; }
 
 .vertical-content-menu.menu-collapsed .content-body {
-  margin-left: 90px;
+  margin-left: 25px;
   -webkit-transition: 300ms ease all;
      -moz-transition: 300ms ease all;
        -o-transition: 300ms ease all;
@@ -249,7 +249,7 @@
 
 .vertical-content-menu.menu-collapsed.menu-flipped .content-body {
   margin-left: 0px;
-  margin-right: 90px;
+  margin-right: 25px;
   -webkit-transition: 300ms ease all;
      -moz-transition: 300ms ease all;
        -o-transition: 300ms ease all;
@@ -259,17 +259,17 @@
   .vertical-content-menu.menu-collapsed.menu-flipped:not(.boxed-layout) .main-menu {
     right: 1.5rem; }
     .vertical-content-menu.menu-collapsed.menu-flipped:not(.boxed-layout) .main-menu span.menu-title {
-      right: 65px; }
+      right: 0px; }
     .vertical-content-menu.menu-collapsed.menu-flipped:not(.boxed-layout) .main-menu ul.menu-content {
-      right: 65px;
+      right: 0px;
       left: inherit; }
   .vertical-content-menu.menu-collapsed.menu-flipped.boxed-layout .main-menu {
     float: right;
     position: relative; }
   .vertical-content-menu.menu-collapsed.menu-flipped.boxed-layout span.menu-title {
-    right: 65px; }
+    right: 0px; }
   .vertical-content-menu.menu-collapsed.menu-flipped.boxed-layout ul.menu-content {
-    right: 65px;
+    right: 0px;
     left: inherit; } }
 
 .vertical-content-menu.menu-collapsed.menu-flipped .navbar .navbar-header {
@@ -306,11 +306,11 @@
 
 @media (max-width: 991.98px) {
   body.vertical-content-menu .main-menu, body.vertical-content-menu .vertical-overlay-menu.menu-hide .main-menu, .vertical-overlay-menu.menu-hide body.vertical-content-menu .main-menu {
-    width: 65px; }
+    width: 0px; }
   body.vertical-content-menu .navbar .navbar-header {
-    width: 65px; }
+    width: 0px; }
   body.vertical-content-menu .content-body {
-    margin-left: 90px;
+    margin-left: 25px;
     -webkit-transition: 300ms ease all;
        -moz-transition: 300ms ease all;
          -o-transition: 300ms ease all;
@@ -322,8 +322,8 @@
 
 /*=========================================================================================
 	File Name: vertical-overlay-menu.scss
-	Description: A overlay style vertical menu with show and hide support. It support 
-	light & dark version, filpped layout, right side icons, native scroll and borders menu 
+	Description: A overlay style vertical menu with show and hide support. It support
+	light & dark version, filpped layout, right side icons, native scroll and borders menu
 	item seperation.
 	----------------------------------------------------------------------------------------
 	Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
@@ -359,7 +359,7 @@
   .vertical-overlay-menu .main-menu .navigation .navigation-header .ft-minus {
     display: none; }
   .vertical-overlay-menu .main-menu .navigation > li > a > i {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin-right: 12px;
     float: left; }
     .vertical-overlay-menu .main-menu .navigation > li > a > i:before {
@@ -380,8 +380,8 @@
         -ms-transform: rotate(0deg);
          -o-transform: rotate(0deg);
             transform: rotate(0deg);
-    -webkit-transition: -webkit-transform 0.9s ease-in-out;
-            transition: -webkit-transform 0.9s ease-in-out; }
+    -webkit-transition: -webkit-transform 0.1s ease-in-out;
+            transition: -webkit-transform 0.1s ease-in-out; }
   .vertical-overlay-menu .main-menu .navigation li.has-sub .has-sub > a:not(.mm-next):after, .vertical-overlay-menu.menu-hide .main-menu .navigation li.has-sub .has-sub > a:not(.mm-next):after {
     top: 8px; }
   .vertical-overlay-menu .main-menu .navigation li.open > a:not(.mm-next):after, .vertical-overlay-menu.menu-hide .main-menu .navigation li.open > a:not(.mm-next):after {

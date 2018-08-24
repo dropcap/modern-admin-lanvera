@@ -1,7 +1,7 @@
 /*=========================================================================================
 	File Name: vertical-overlay-menu.scss
-	Description: A overlay style vertical menu with show and hide support. It support 
-	light & dark version, filpped layout, right side icons, native scroll and borders menu 
+	Description: A overlay style vertical menu with show and hide support. It support
+	light & dark version, filpped layout, right side icons, native scroll and borders menu
 	item seperation.
 	----------------------------------------------------------------------------------------
 	Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
@@ -37,7 +37,7 @@
   .vertical-overlay-menu .main-menu .navigation .navigation-header .ft-minus {
     display: none; }
   .vertical-overlay-menu .main-menu .navigation > li > a > i {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin-right: 12px;
     float: left; }
     .vertical-overlay-menu .main-menu .navigation > li > a > i:before {
@@ -58,8 +58,8 @@
         -ms-transform: rotate(0deg);
          -o-transform: rotate(0deg);
             transform: rotate(0deg);
-    -webkit-transition: -webkit-transform 0.9s ease-in-out;
-            transition: -webkit-transform 0.9s ease-in-out; }
+    -webkit-transition: -webkit-transform 0.1s ease-in-out;
+            transition: -webkit-transform 0.1s ease-in-out; }
   .vertical-overlay-menu .main-menu .navigation li.has-sub .has-sub > a:not(.mm-next):after {
     top: 8px; }
   .vertical-overlay-menu .main-menu .navigation li.open > a:not(.mm-next):after {

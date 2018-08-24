@@ -92,9 +92,9 @@
 // Main Navigation
 .navigation {
     font-size: 1.1rem;
-    letter-spacing: 0.1px;
+    letter-spacing: 0.2px;
     font-family: $font-family-sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     overflow-y: hidden;
     padding-bottom: 20px;
     .navigation-header {
@@ -102,7 +102,7 @@
         font-weight: $headings-font-weight;
         line-height: $headings-line-height;
         padding: 12px 22px;
-        font-size: 1rem;
+        font-size: .9rem;
         text-transform: uppercase;
         border-top: 2px solid rgba(0, 0, 0, 0.2);
     }

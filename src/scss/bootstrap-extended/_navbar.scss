@@ -65,16 +65,18 @@
         padding: 0rem 0.85rem;
         transition: 300ms ease all;
         .navbar-brand {
+            display: flex;
             padding: 17px 0px;
             margin-right: 0;
-            .brand-logo{                
-                width: 36px;
+            .brand-logo{
+                max-width: 142px;
+                vertical-align: middle;
             }
             .brand-text{
                 display: inline;
                 padding-left: 6px;
                 font-weight: 500;
-                vertical-align: middle;                
+                vertical-align: middle;
             }
         }
     }
@@ -376,7 +378,7 @@
     }
 }
 
-@-moz-document url-prefix() { 
+@-moz-document url-prefix() {
      ul {
         li {
             a {
@@ -550,7 +552,7 @@
     }
     // light navbar
     .navbar-light,
-    .navbar-semi-light {            
+    .navbar-semi-light {
         .navbar-header {
             .navbar-nav {
                 .nav-link {
@@ -653,9 +655,9 @@
     }
 }
 
-@media (max-width: 767px) {    
+@media (max-width: 767px) {
     //For responsive mega menu
-    #navbar-mobile.navbar-collapse {           
+    #navbar-mobile.navbar-collapse {
         .navbar-nav {
             margin: 0;
             flex-flow: row wrap;
