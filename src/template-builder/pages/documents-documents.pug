@@ -24,15 +24,17 @@ block breadcrumbs
 append content
 	include ../contents/documents-documents.html
 
-//- Vendor JS
-//------------------------------
-//- Add vendor specific JS
-append vendorjs
-	//- This JS file is already included in the scripts.pug file so we have commented it on this page to prevent loading the same js twice.
-	//- script(src=app_assets_path + '/vendors/js/ui/blockUI.min.js', type='text/javascript')
+	//- Page specific dependency
+	//------------------------------
 
-//- Page JS
-//------------------------------
-//- Add custom page specific JS
-append pagejs
-	script(src=app_assets_path + '/js/scripts/extensions/block-ui.js', type='text/javascript')
+	//- Add vendor specific CSS
+	append vendorcss
+		link(rel='stylesheet', type='text/css', href=app_assets_path + '/vendors/css/tables/datatable/datatables.min.css')
+
+	//- Add vendor specific JS
+	append vendorjs
+		script(src=app_assets_path + '/vendors/js/tables/datatable/datatables.min.js', type='text/javascript')
+
+	//- Add custom page specific JS
+	append pagejs
+		script(src=app_assets_path + '/js/scripts/tables/datatables/datatable-basic.js', type='text/javascript')
