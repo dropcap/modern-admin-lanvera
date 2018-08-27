@@ -12,17 +12,17 @@
 extends template
 
 block pageVars
-	- var pageTitle = "Cards"
-	- var pageSubTitle = "Document Cards"
+	- var pageTitle = "1098 Tax Form"
+	- var pageSubTitle = "Detail"
 	- var description = "This tells you what the page does"
-	- var activeMenu = "cards"
+	- var activeMenu = "documents_list"
 
 block breadcrumbs
 	+breadcrumbs([{url:"index.html",name:"Home"}, {name:"Cards"}])
 
 //- Include page content in page block
 append content
-	include ../contents/documents-cards.html
+	include ../contents/documents-detail.html
 
 //- Vendor JS
 //------------------------------
