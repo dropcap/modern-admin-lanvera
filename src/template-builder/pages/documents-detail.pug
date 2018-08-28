@@ -1,0 +1,41 @@
+//- =========================================================================================
+	File Name: documents-cards.pug
+	Description: Document Cards
+	----------------------------------------------------------------------------------------
+	Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
+	Version: 1.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+	==========================================================================================
+
+
+extends template
+
+block pageVars
+	- var pageTitle = "1098 Tax Form"
+	- var pageSubTitle = "Detail"
+	- var description = "This tells you what the page does"
+	- var activeMenu = "documents_list"
+
+block breadcrumbs
+	+breadcrumbs([{url:"index.html",name:"Home"}, {name:"Cards"}])
+
+//- Include page content in page block
+append content
+	include ../contents/documents-detail.html
+
+//- Vendor JS
+//------------------------------
+//- Add vendor specific JS
+append vendorjs
+	//- This JS file is already included in the scripts.pug file so we have commented it on this page to prevent loading the same js twice.
+	//- script(src=app_assets_path + '/vendors/js/ui/blockUI.min.js', type='text/javascript')
+
+	//- Bootstrap Touchspin CSS
+	link(rel='stylesheet', type='text/css', href=app_assets_path + '/vendors/css/forms/spinner/jquery.bootstrap-touchspin.css')
+
+//- Page JS
+//------------------------------
+//- Add custom page specific JS
+append pagejs
+	script(src=app_assets_path + '/js/scripts/extensions/block-ui.js', type='text/javascript')
