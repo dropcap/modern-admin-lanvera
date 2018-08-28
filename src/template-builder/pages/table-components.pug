@@ -1,28 +1,30 @@
 //- =========================================================================================
-	File Name: documents-documents.pug
-	Description: Documents List
+	File Name: table-components.pug
+	Description: Table components.
 	----------------------------------------------------------------------------------------
-	Item Name: Lanvera Components
+	Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
 	Version: 1.0
-	Author: Lanvera
-	Author URL: http://www.lanvera.com
-	==========================================================================================
-
-
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+	==========================================================================================-//
 extends template
 
 block pageVars
-	- var pageTitle = "Documents"
-	- var pageSubTitle = "Documents"
-	- var description = "This tells you what the page does"
-	- var activeMenu = "documents-list"
+	- var pageTitle    = "Table components"
+	- var pageSubTitle = "Table using different components"
+	- var description  = "The full width 2 columns layout with content & navigation section."
+	- var activeMenu   = "table-components"
+
+
 
 block breadcrumbs
-	+breadcrumbs([{url:"index.html",name:"Home"}, {name:"Documents List"}])
+	+breadcrumbs([{url:"index.html",name:"Home"},{url:"#",name:"Tables"}, {name:"Table Components"}])
+
+
 
 //- Include page content in page block
 append content
-	include ../contents/documents-documents.html
+	include ../contents/table-components.html
 
 append vendorcss
 	//- Checkbox CSS
@@ -34,12 +36,6 @@ append vendorcss
 	link(rel='stylesheet', type='text/css', href=app_assets_path + '/vendors/css/forms/selects/select2.min.css')
 	//- Bootstrap Touchspin CSS
 	link(rel='stylesheet', type='text/css', href=app_assets_path + '/vendors/css/forms/spinner/jquery.bootstrap-touchspin.css')
-//- Page specific dependency
-//------------------------------
-//- Add custom page specific CSS
-append pagecss
-	link(rel='stylesheet', type='text/css', href=app_assets_path + '/css'+rtl+'/plugins/forms/switch.css')
-	link(rel='stylesheet', type='text/css', href=app_assets_path + '/css'+rtl+'/core/colors/palette-callout.css')
 
 append vendorjs
 	//- Buttons JS
@@ -60,3 +56,8 @@ append vendorjs
 append pagejs
 	//- Table Components custom JS
 	script(src=app_assets_path + '/js/scripts/tables/components/table-components.js', type='text/javascript')
+
+//- Add custom page specific CSS
+append pagecss
+	link(rel='stylesheet', type='text/css', href=app_assets_path + '/css'+rtl+'/plugins/forms/switch.css')
+	link(rel='stylesheet', type='text/css', href=app_assets_path + '/css'+rtl+'/core/colors/palette-callout.css')
