@@ -146,6 +146,12 @@ data-open="click" data-menu="vertical-menu" data-col="2-columns">
   </nav>
   <!-- ////////////////////////////////////////////////////////////////////////////-->
   <div class="main-menu menu-fixed menu-dark menu-accordion    menu-shadow " data-scroll-to-active="true">
+    <div class="main-menu-header bg-white">
+      <div class="p text-secondary">
+        <div class="i la la-calendar-check-o"></div>Client Name
+      </div>
+      <div class="a link h5 mb-0" href="#">Brookhaven C.C.</div>
+    </div>
     <div class="main-menu-content">
       <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
         <li class=" nav-item"><a href="dashboard.html"><i class="la la-dashboard"></i><span class="menu-title" data-i18n="">Dashboard</span></a>
@@ -156,7 +162,7 @@ data-open="click" data-menu="vertical-menu" data-col="2-columns">
         </li>
         <li class=" nav-item"><a href="#"><i class="la la-copy"></i><span class="menu-title" data-i18n="nav.documents.main">Documents</span></a>
           <ul class="menu-content">
-            <li><a class="menu-item" href="documents-documents.html" data-i18n="nav.documents.documents_list">Documents</a>
+            <li class="active"><a class="menu-item" href="documents-documents.html" data-i18n="nav.documents.documents_list">Documents</a>
             </li>
             <li><a class="menu-item" href="documents-cards.html" data-i18n="nav.documents.cards">Cards</a>
             </li>
@@ -234,22 +240,18 @@ data-open="click" data-menu="vertical-menu" data-col="2-columns">
   <div class="app-content content">
     <div class="content-wrapper">
       <div class="content-header row">
-        <div class="content-header-left col-md-6 col-12 mb-2">
-          <h3 class="content-header-title mb-0">1098 Tax Form</h3>
-          <div class="row breadcrumbs-top d-none">
-            <div class="breadcrumb-wrapper col-12">
-              <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index.html">Home</a>
-                </li>
-                <li class="breadcrumb-item active">Cards
-                </li>
-              </ol>
-            </div>
-          </div>
+        <div class="content-header-left col-md-6 col-12 mb-1">
+          <h2 class="content-header-title">1098 Tax Form</h2>
         </div>
-        <div class="content-header-right text-md-right col-md-6 col-12 mb-3">
-          <button class="btn btn-outline-secondary mr-1" type="button"><i class="icon-cog3"></i> Cancel</button>
-          <button class="btn btn-info" type="button"><i class="icon-cog3"></i> Save</button>
+        <div class="content-header-right breadcrumbs-right breadcrumbs-top col-md-6 col-12">
+          <div class="breadcrumb-wrapper col-12">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Home</a>
+              </li>
+              <li class="breadcrumb-item active">Cards
+              </li>
+            </ol>
+          </div>
         </div>
       </div>
       <div class="content-body">
@@ -383,7 +385,46 @@ data-open="click" data-menu="vertical-menu" data-col="2-columns">
           </div>
       </div>
       </section>
+      <section id="horizontal-form-layouts">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title"></h4>
+                <a class="heading-elements-toggle">
+                  <i class="la la-ellipsis-v font-medium-3"></i>
+                </a>
+                <!-- <div class="heading-elements"> <ul class="list-inline mb-0"> <li> <a data-action="collapse"> <i class="ft-minus"></i> </a> </li> <li> <a data-action="reload"> <i class="ft-rotate-cw"></i> </a> </li> <li> <a data-action="expand"> <i
+          class="ft-maximize"></i> </a> </li> <li> <a data-action="close"> <i class="ft-x"></i> </a> </li> </ul> </div> -->
+              </div>
+              <div class="card-content collapse show">
+                <div class="card-body">
+                  <div class="col-md-6 m-auto">
+                    <form class="form">
+                      <div class="form-body">
+                        <div class="form-group">
+                          <label>Label</label>
+                          <input type="text" class="form-control" placeholder="col-md-6 m-auto">
+                        </div>
+                      </div>
+                  </div>
+                  <div class="form-actions center">
+                    <button type="button" class="btn btn-outline-secondary mr-1">
+                      Cancel
+                    </button>
+                    <button type="submit" class="btn btn-info">
+                      Save Changes
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
+  </div>
+  </section>
+  </div>
   </div>
   </div>
   <!-- ////////////////////////////////////////////////////////////////////////////-->
