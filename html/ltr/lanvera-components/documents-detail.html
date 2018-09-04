@@ -1,438 +1,520 @@
 <!DOCTYPE html>
 <html class="loading" lang="en" data-textdirection="ltr">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
-  <meta name="description" content="Lanvera Admin is our new company UI across multiple products">
-  <meta name="lanvera" content="lanvera, admin template, dashboard">
-  <meta name="author" content="Lanvera">
-  <title>1098 Tax Form - Lanvera Admin</title>
-  <link rel="apple-touch-icon" href="../../../app-assets/images/ico/apple-icon-120.png">
-  <link rel="shortcut icon" type="image/x-icon" href="../../../assets/images/ico/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Gothic+A1:300,400,500,700,800|Barlow:300,400,500,600,700,800"
-  rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,400i,500,500i,700,700i|Roboto+Slab:300,400,700|Roboto:400,500,700,900"
-  rel="stylesheet">
-  <link href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css"
-  rel="stylesheet">
-  <!-- BEGIN VENDOR CSS-->
-  <link rel="stylesheet" type="text/css" href="../../../app-assets/css/vendors.css">
-  <!-- END VENDOR CSS-->
-  <!-- BEGIN MODERN CSS-->
-  <link rel="stylesheet" type="text/css" href="../../../app-assets/css/app.css">
-  <!-- END MODERN CSS-->
-  <!-- BEGIN Page Level CSS-->
-  <link rel="stylesheet" type="text/css" href="../../../app-assets/css/core/menu/menu-types/vertical-menu.css">
-  <link rel="stylesheet" type="text/css" href="../../../app-assets/css/core/colors/palette-gradient.css">
-  <!-- END Page Level CSS-->
-  <!-- BEGIN Custom CSS-->
-  <link rel="stylesheet" type="text/css" href="../../../assets/css/style.css">
-  <link rel="stylesheet" type="text/css" href="../../../assets/css/lanvera-styles.css">
-  <!-- END Custom CSS-->
-</head>
-<body class="vertical-layout vertical-menu 2-columns   menu-expanded fixed-navbar"
-data-open="click" data-menu="vertical-menu" data-col="2-columns">
-  <!-- fixed-top-->
-  <nav class="header-navbar navbar-expand-md navbar navbar-with-menu navbar-without-dd-arrow fixed-top navbar-dark navbar-shadow">
-    <div class="navbar-wrapper">
-      <div class="navbar-header d-block d-md-none d-xl-none">
-        <ul class="nav navbar-nav d-flex flex-row align-items-center">
-          <li class="nav-item mobile-menu d-md-none mr-1 ml-1"><a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i class="ft-menu font-large-1"></i></a></li>
-          <li class="nav-item">
-            <a class="nav-link">
-              <img class="brand-image" href="index.html" alt="lanvera logo" src="../../../assets/images/logo/lanvera-logo-reverse.svg">
-            </a>
-          </li>
-          <li class="nav-item ml-auto d-md-none">
-            <a class="nav-link open-navbar-container" data-toggle="collapse" data-target="#navbar-mobile"><i class="la la-ellipsis-v"></i></a>
-          </li>
-        </ul>
-      </div>
-      <div class="navbar-container content">
-        <div class="collapse navbar-collapse" id="navbar-mobile">
-          <ul class="nav navbar-nav mr-auto float-left">
-            <li class="nav-item d-none d-md-block"><a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i class="ft-menu"></i></a></li>
-            <li class="nav-item d-block">
-              <a class="nav-link pl-0">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description" content="Lanvera Admin is our new company UI across multiple products">
+    <meta name="lanvera" content="lanvera, admin template, dashboard">
+    <meta name="author" content="Lanvera">
+    <title>1098 Tax Form - Lanvera Admin</title>
+    <link rel="apple-touch-icon" href="../../../app-assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../../../assets/images/ico/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Gothic+A1:300,400,500,700,800|Barlow:300,400,500,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,400i,500,500i,700,700i|Roboto+Slab:300,400,700|Roboto:400,500,700,900" rel="stylesheet">
+    <link href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css" rel="stylesheet">
+    <!-- BEGIN VENDOR CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/vendors.css">
+    <!-- END VENDOR CSS-->
+    <!-- BEGIN MODERN CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/app.css">
+    <!-- END MODERN CSS-->
+    <!-- BEGIN Page Level CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/core/menu/menu-types/vertical-menu.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/core/colors/palette-gradient.css">
+    <!-- END Page Level CSS-->
+    <!-- BEGIN Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/lanvera-styles.css">
+    <!-- END Custom CSS-->
+  </head>
+  <body class="vertical-layout vertical-menu 2-columns   menu-expanded fixed-navbar" data-open="click" data-menu="vertical-menu" data-col="2-columns">
+    <!-- fixed-top-->
+    <nav class="header-navbar navbar-expand-md navbar navbar-with-menu navbar-without-dd-arrow fixed-top navbar-dark navbar-shadow">
+      <div class="navbar-wrapper">
+        <div class="navbar-header d-block d-md-none d-xl-none">
+          <ul class="nav navbar-nav d-flex flex-row align-items-center">
+            <li class="nav-item mobile-menu d-md-none mr-1 ml-1">
+              <a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#">
+                <i class="ft-menu font-large-1"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">
                 <img class="brand-image" href="index.html" alt="lanvera logo" src="../../../assets/images/logo/lanvera-logo-reverse.svg">
               </a>
             </li>
-          </ul>
-          <ul class="nav navbar-nav float-right">
-            <li class="nav-item d-none d-md-block"><a class="nav-link nav-link-expand" href="#"><i class="ficon ft-maximize"></i></a></li>
-            <li class="dropdown dropdown-notification nav-item">
-              <a class="nav-link nav-link-label" href="#" data-toggle="dropdown"><i class="ficon ft-mail"></i></a>
-              <ul class="dropdown-menu dropdown-menu-media dropdown-menu-right">
-                <li class="dropdown-menu-header">
-                  <h6 class="dropdown-header m-0">
-                    <span class="grey darken-2">Messages</span>
-                  </h6>
-                  <span class="notification-tag badge badge-default badge-warning float-right m-0">4 New</span>
-                </li>
-                <li class="scrollable-container media-list w-100">
-                  <a href="javascript:void(0)">
-                    <div class="media">
-                      <div class="media-left">
-                        <span class="avatar avatar-sm avatar-online rounded-circle">
-                          <img src="../../../app-assets/images/portrait/small/avatar-s-19.png"
-                          alt="avatar"><i></i></span>
-                      </div>
-                      <div class="media-body">
-                        <h6 class="media-heading">Margaret Govan</h6>
-                        <p class="notification-text font-small-3 text-muted">I like your portfolio, let's start.</p>
-                        <small>
-                          <time class="media-meta text-muted" datetime="2015-06-11T18:29:20+08:00">Today</time>
-                        </small>
-                      </div>
-                    </div>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <div class="media">
-                      <div class="media-left">
-                        <span class="avatar avatar-sm avatar-busy rounded-circle">
-                          <img src="../../../app-assets/images/portrait/small/avatar-s-2.png"
-                          alt="avatar"><i></i></span>
-                      </div>
-                      <div class="media-body">
-                        <h6 class="media-heading">Bret Lezama</h6>
-                        <p class="notification-text font-small-3 text-muted">I have seen your work, there is</p>
-                        <small>
-                          <time class="media-meta text-muted" datetime="2015-06-11T18:29:20+08:00">Tuesday</time>
-                        </small>
-                      </div>
-                    </div>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <div class="media">
-                      <div class="media-left">
-                        <span class="avatar avatar-sm avatar-online rounded-circle">
-                          <img src="../../../app-assets/images/portrait/small/avatar-s-3.png"
-                          alt="avatar"><i></i></span>
-                      </div>
-                      <div class="media-body">
-                        <h6 class="media-heading">Carie Berra</h6>
-                        <p class="notification-text font-small-3 text-muted">Can we have call in this week ?</p>
-                        <small>
-                          <time class="media-meta text-muted" datetime="2015-06-11T18:29:20+08:00">Friday</time>
-                        </small>
-                      </div>
-                    </div>
-                  </a>
-                  <a href="javascript:void(0)">
-                    <div class="media">
-                      <div class="media-left">
-                        <span class="avatar avatar-sm avatar-away rounded-circle">
-                          <img src="../../../app-assets/images/portrait/small/avatar-s-6.png"
-                          alt="avatar"><i></i></span>
-                      </div>
-                      <div class="media-body">
-                        <h6 class="media-heading">Eric Alsobrook</h6>
-                        <p class="notification-text font-small-3 text-muted">We have project party this saturday.</p>
-                        <small>
-                          <time class="media-meta text-muted" datetime="2015-06-11T18:29:20+08:00">last month</time>
-                        </small>
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                <li class="dropdown-menu-footer"><a class="dropdown-item text-muted text-center" href="javascript:void(0)">Read all messages</a></li>
-              </ul>
+            <li class="nav-item ml-auto d-md-none">
+              <a class="nav-link open-navbar-container" data-toggle="collapse" data-target="#navbar-mobile">
+                <i class="la la-ellipsis-v"></i>
+              </a>
             </li>
           </ul>
         </div>
-      </div>
-    </div>
-  </nav>
-  <!-- ////////////////////////////////////////////////////////////////////////////-->
-  <div class="main-menu menu-fixed menu-dark menu-accordion    menu-shadow " data-scroll-to-active="true">
-    <div class="main-menu-header bg-white">
-      <div class="p text-secondary">
-        <div class="i la la-calendar-check-o"></div>Client Name
-      </div>
-      <div class="a link h5 mb-0" href="#">Brookhaven C.C.</div>
-    </div>
-    <div class="main-menu-content">
-      <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
-        <li class=" nav-item"><a href="dashboard.html"><i class="la la-dashboard"></i><span class="menu-title" data-i18n="">Dashboard</span></a>
-        </li>
-        <li class=" navigation-header">
-          <span data-i18n="nav.category.manage">Manage</span><i class="la la-ellipsis-h ft-minus" data-toggle="tooltip"
-          data-placement="right" data-original-title="Manage"></i>
-        </li>
-        <li class=" nav-item"><a href="#"><i class="la la-copy"></i><span class="menu-title" data-i18n="nav.documents.main">Documents</span></a>
-          <ul class="menu-content">
-            <li class="active"><a class="menu-item" href="documents-documents.html" data-i18n="nav.documents.documents_list">Documents</a>
-            </li>
-            <li><a class="menu-item" href="documents-cards.html" data-i18n="nav.documents.cards">Cards</a>
-            </li>
-            <li><a class="menu-item" href="documents-categories.html" data-i18n="nav.documents.categories">Categories</a>
-            </li>
-            <li><a class="menu-item" href="documents-settings.html" data-i18n="nav.documents.document-settings">Settings</a>
-            </li>
-          </ul>
-        </li>
-        <li class=" nav-item"><a href="#"><i class="la la-bell"></i><span class="menu-title" data-i18n="nav.notifications.main">Notifications</span></a>
-          <ul class="menu-content">
-            <li><a class="menu-item" href="notifications-document.html" data-i18n="nav.notifications.document_notifications">Document Notifications</a>
-            </li>
-            <li><a class="menu-item" href="notifications-system.html" data-i18n="nav.notifications.system_notifications">System Notifications</a>
-            </li>
-            <li><a class="menu-item" href="notifications-settings.html" data-i18n="nav.notifications.notifications_settings">Settings</a>
-            </li>
-          </ul>
-        </li>
-        <li class=" nav-item"><a href="customers.html"><i class="la la-user"></i><span class="menu-title" data-i18n="">Customers</span></a>
-        </li>
-        <li class=" nav-item"><a href="#"><i class="la la-bar-chart"></i><span class="menu-title" data-i18n="nav.reports.main">Reports</span></a>
-          <ul class="menu-content">
-            <li><a class="menu-item" href="reports-customers.html" data-i18n="nav.reports.customer_reports">Customer Reports</a>
-            </li>
-            <li><a class="menu-item" href="reports-documents.html" data-i18n="nav.reports.document_reports">Document Reports</a>
-            </li>
-            <li><a class="menu-item" href="reports-notifications.html" data-i18n="nav.reports.notification_reports">Notification Reports</a>
-            </li>
-          </ul>
-        </li>
-        <li class=" navigation-header">
-          <span data-i18n="nav.category.customer_site">Customer Site</span><i class="la la-ellipsis-h ft-minus" data-toggle="tooltip"
-          data-placement="right" data-original-title="Customer Site"></i>
-        </li>
-        <li class=" nav-item"><a href="#"><i class="la la-paint-brush"></i><span class="menu-title" data-i18n="nav.appearance.main">Appearance</span></a>
-          <ul class="menu-content">
-            <li><a class="menu-item" href="appearance-brand-settings.html" data-i18n="nav.appearance.brand_settings">Brand Settings</a>
-            </li>
-            <li><a class="menu-item" href="appearance-site-menu.html" data-i18n="nav.appearance.site_menu">Site Menu</a>
-            </li>
-          </ul>
-        </li>
-        <li class=" nav-item"><a href="#"><i class="la la-list"></i><span class="menu-title" data-i18n="nav.content.main">Content</span></a>
-          <ul class="menu-content">
-            <li><a class="menu-item" href="content-sidebar.html" data-i18n="nav.content.sidebar">Sidebar</a>
-            </li>
-            <li><a class="menu-item" href="content-banner.html" data-i18n="nav.content.banner">Banner</a>
-            </li>
-            <li><a class="menu-item" href="content-consent.html" data-i18n="nav.content.consent">Consent</a>
-            </li>
-            <li><a class="menu-item" href="content-support.html" data-i18n="nav.content.support">Support</a>
-            </li>
-            <li><a class="menu-item" href="content-faqs.html" data-i18n="nav.content.faqs">FAQs</a>
-            </li>
-          </ul>
-        </li>
-        <li class=" nav-item"><a href="#"><i class="la la-gear"></i><span class="menu-title" data-i18n="nav.settings.main">Settings</span></a>
-          <ul class="menu-content">
-            <li><a class="menu-item" href="settings-domain-urls.html" data-i18n="nav.settings.domain_urls">Domain URLs</a>
-            </li>
-            <li><a class="menu-item" href="settings-customer-access.html" data-i18n="nav.settings.customer_access">Customer Access</a>
-            </li>
-          </ul>
-        </li>
-        <li class=" navigation-header">
-          <span data-i18n="nav.category.admin_portal">Admin Portal</span><i class="la la-ellipsis-h ft-minus" data-toggle="tooltip"
-          data-placement="right" data-original-title="Admin Portal"></i>
-        </li>
-        <li class=" nav-item"><a href="#"><i class="la la-lock"></i><span class="menu-title" data-i18n="">Users &amp; Access</span></a>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div class="app-content content">
-    <div class="content-wrapper">
-      <div class="content-header row">
-        <div class="content-header-left col-md-6 col-12 mb-1">
-          <h2 class="content-header-title">1098 Tax Form</h2>
-        </div>
-        <div class="content-header-right breadcrumbs-right breadcrumbs-top col-md-6 col-12">
-          <div class="breadcrumb-wrapper col-12">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="index.html">Home</a>
+        <div class="navbar-container content">
+          <div class="collapse navbar-collapse" id="navbar-mobile">
+            <ul class="nav navbar-nav mr-auto float-left">
+              <li class="nav-item d-none d-md-block">
+                <a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#">
+                  <i class="ft-menu"></i>
+                </a>
               </li>
-              <li class="breadcrumb-item active">Cards
+              <li class="nav-item d-block">
+                <a class="nav-link pl-0">
+                  <img class="brand-image" href="index.html" alt="lanvera logo" src="../../../assets/images/logo/lanvera-logo-reverse.svg">
+                </a>
               </li>
-            </ol>
+            </ul>
+            <ul class="nav navbar-nav float-right">
+              <li class="nav-item d-none d-md-block">
+                <a class="nav-link nav-link-expand" href="#">
+                  <i class="ficon ft-maximize"></i>
+                </a>
+              </li>
+              <li class="dropdown dropdown-notification nav-item">
+                <a class="nav-link nav-link-label" href="#" data-toggle="dropdown">
+                  <i class="ficon ft-mail"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-media dropdown-menu-right">
+                  <li class="dropdown-menu-header">
+                    <h6 class="dropdown-header m-0">
+                      <span class="grey darken-2">Messages</span>
+                    </h6>
+                    <span class="notification-tag badge badge-default badge-warning float-right m-0">4 New</span>
+                  </li>
+                  <li class="scrollable-container media-list w-100">
+                    <a href="javascript:void(0)">
+                      <div class="media">
+                        <div class="media-left">
+                          <span class="avatar avatar-sm avatar-online rounded-circle">
+                            <img src="../../../app-assets/images/portrait/small/avatar-s-19.png" alt="avatar">
+                            <i></i>
+                          </span>
+                        </div>
+                        <div class="media-body">
+                          <h6 class="media-heading">Margaret Govan</h6>
+                          <p class="notification-text font-small-3 text-muted">I like your portfolio, let's start.</p>
+                          <small>
+                            <time class="media-meta text-muted" datetime="2015-06-11T18:29:20+08:00">Today</time>
+                          </small>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="javascript:void(0)">
+                      <div class="media">
+                        <div class="media-left">
+                          <span class="avatar avatar-sm avatar-busy rounded-circle">
+                            <img src="../../../app-assets/images/portrait/small/avatar-s-2.png" alt="avatar">
+                            <i></i>
+                          </span>
+                        </div>
+                        <div class="media-body">
+                          <h6 class="media-heading">Bret Lezama</h6>
+                          <p class="notification-text font-small-3 text-muted">I have seen your work, there is</p>
+                          <small>
+                            <time class="media-meta text-muted" datetime="2015-06-11T18:29:20+08:00">Tuesday</time>
+                          </small>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="javascript:void(0)">
+                      <div class="media">
+                        <div class="media-left">
+                          <span class="avatar avatar-sm avatar-online rounded-circle">
+                            <img src="../../../app-assets/images/portrait/small/avatar-s-3.png" alt="avatar">
+                            <i></i>
+                          </span>
+                        </div>
+                        <div class="media-body">
+                          <h6 class="media-heading">Carie Berra</h6>
+                          <p class="notification-text font-small-3 text-muted">Can we have call in this week ?</p>
+                          <small>
+                            <time class="media-meta text-muted" datetime="2015-06-11T18:29:20+08:00">Friday</time>
+                          </small>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="javascript:void(0)">
+                      <div class="media">
+                        <div class="media-left">
+                          <span class="avatar avatar-sm avatar-away rounded-circle">
+                            <img src="../../../app-assets/images/portrait/small/avatar-s-6.png" alt="avatar">
+                            <i></i>
+                          </span>
+                        </div>
+                        <div class="media-body">
+                          <h6 class="media-heading">Eric Alsobrook</h6>
+                          <p class="notification-text font-small-3 text-muted">We have project party this saturday.</p>
+                          <small>
+                            <time class="media-meta text-muted" datetime="2015-06-11T18:29:20+08:00">last month</time>
+                          </small>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="dropdown-menu-footer">
+                    <a class="dropdown-item text-muted text-center" href="javascript:void(0)">Read all messages</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-      <div class="content-body">
-        <section id="horizontal-form-layouts">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="card">
-                <div class="card-header">
-                  <h4 class="card-title">1098 Tax Form</h4>
-                  <a class="heading-elements-toggle">
-                    <i class="la la-ellipsis-v font-medium-3"></i>
-                  </a>
-                  <!-- <div class="heading-elements"> <ul class="list-inline mb-0"> <li> <a data-action="collapse"> <i class="ft-minus"></i> </a> </li> <li> <a data-action="reload"> <i class="ft-rotate-cw"></i> </a> </li> <li> <a data-action="expand"> <i
-          class="ft-maximize"></i> </a> </li> <li> <a data-action="close"> <i class="ft-x"></i> </a> </li> </ul> </div> -->
-                </div>
-                <div class="card-content collapse show">
-                  <div class="card-body">
-                    <form class="form form-horizontal">
-                      <div class="form-body">
-                        <div class="form-group row">
-                          <label class="col-sm-3 label-control" for="projectinput1">Document Name</label>
-                          <div class="col-sm-6">
-                            <input type="text" id="projectinput1" class="form-control" placeholder="" name="dname"
-                            value="1098" disabled="disabled">
+    </nav>
+    <!-- ////////////////////////////////////////////////////////////////////////////-->
+    <div class="main-menu menu-fixed menu-dark menu-accordion    menu-shadow " data-scroll-to-active="true">
+      <div class="main-menu-header bg-white">
+        <div class="p text-secondary">
+          <div class="i la la-calendar-check-o"></div>Client Name
+        </div>
+        <div class="a link h5 mb-0" href="#">Brookhaven C.C.</div>
+      </div>
+      <div class="main-menu-content">
+        <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
+          <li class=" nav-item">
+            <a href="dashboard.html">
+              <i class="la la-dashboard"></i>
+              <span class="menu-title" data-i18n="">Dashboard</span></a>
+          </li>
+          <li class=" navigation-header">
+            <span data-i18n="nav.category.manage">Manage</span>
+            <i class="la la-ellipsis-h ft-minus" data-toggle="tooltip" data-placement="right" data-original-title="Manage"></i>
+          </li>
+          <li class=" nav-item">
+            <a href="#">
+              <i class="la la-copy"></i>
+              <span class="menu-title" data-i18n="nav.documents.main">Documents</span></a>
+            <ul class="menu-content">
+              <li class="active">
+                <a class="menu-item" href="documents-documents.html" data-i18n="nav.documents.documents_list">Documents</a>
+              </li>
+              <li>
+                <a class="menu-item" href="documents-cards.html" data-i18n="nav.documents.cards">Cards</a>
+              </li>
+              <li>
+                <a class="menu-item" href="documents-categories.html" data-i18n="nav.documents.categories">Categories</a>
+              </li>
+              <li>
+                <a class="menu-item" href="documents-settings.html" data-i18n="nav.documents.document-settings">Settings</a>
+              </li>
+            </ul>
+          </li>
+          <li class=" nav-item">
+            <a href="#">
+              <i class="la la-bell"></i>
+              <span class="menu-title" data-i18n="nav.notifications.main">Notifications</span></a>
+            <ul class="menu-content">
+              <li>
+                <a class="menu-item" href="notifications-document.html" data-i18n="nav.notifications.document_notifications">Document Notifications</a>
+              </li>
+              <li>
+                <a class="menu-item" href="notifications-system.html" data-i18n="nav.notifications.system_notifications">System Notifications</a>
+              </li>
+              <li>
+                <a class="menu-item" href="notifications-settings.html" data-i18n="nav.notifications.notifications_settings">Settings</a>
+              </li>
+            </ul>
+          </li>
+          <li class=" nav-item">
+            <a href="customers.html">
+              <i class="la la-user"></i>
+              <span class="menu-title" data-i18n="">Customers</span></a>
+          </li>
+          <li class=" nav-item">
+            <a href="#">
+              <i class="la la-bar-chart"></i>
+              <span class="menu-title" data-i18n="nav.reports.main">Reports</span></a>
+            <ul class="menu-content">
+              <li>
+                <a class="menu-item" href="reports-customers.html" data-i18n="nav.reports.customer_reports">Customer Reports</a>
+              </li>
+              <li>
+                <a class="menu-item" href="reports-documents.html" data-i18n="nav.reports.document_reports">Document Reports</a>
+              </li>
+              <li>
+                <a class="menu-item" href="reports-notifications.html" data-i18n="nav.reports.notification_reports">Notification Reports</a>
+              </li>
+            </ul>
+          </li>
+          <li class=" navigation-header">
+            <span data-i18n="nav.category.customer_site">Customer Site</span>
+            <i class="la la-ellipsis-h ft-minus" data-toggle="tooltip" data-placement="right" data-original-title="Customer Site"></i>
+          </li>
+          <li class=" nav-item">
+            <a href="#">
+              <i class="la la-paint-brush"></i>
+              <span class="menu-title" data-i18n="nav.appearance.main">Appearance</span></a>
+            <ul class="menu-content">
+              <li>
+                <a class="menu-item" href="appearance-brand-settings.html" data-i18n="nav.appearance.brand_settings">Brand Settings</a>
+              </li>
+              <li>
+                <a class="menu-item" href="appearance-site-menu.html" data-i18n="nav.appearance.site_menu">Site Menu</a>
+              </li>
+            </ul>
+          </li>
+          <li class=" nav-item">
+            <a href="#">
+              <i class="la la-list"></i>
+              <span class="menu-title" data-i18n="nav.content.main">Content</span></a>
+            <ul class="menu-content">
+              <li>
+                <a class="menu-item" href="content-sidebar.html" data-i18n="nav.content.sidebar">Sidebar</a>
+              </li>
+              <li>
+                <a class="menu-item" href="content-banner.html" data-i18n="nav.content.banner">Banner</a>
+              </li>
+              <li>
+                <a class="menu-item" href="content-consent.html" data-i18n="nav.content.consent">Consent</a>
+              </li>
+              <li>
+                <a class="menu-item" href="content-support.html" data-i18n="nav.content.support">Support</a>
+              </li>
+              <li>
+                <a class="menu-item" href="content-faqs.html" data-i18n="nav.content.faqs">FAQs</a>
+              </li>
+            </ul>
+          </li>
+          <li class=" nav-item">
+            <a href="#">
+              <i class="la la-gear"></i>
+              <span class="menu-title" data-i18n="nav.settings.main">Settings</span></a>
+            <ul class="menu-content">
+              <li>
+                <a class="menu-item" href="settings-domain-urls.html" data-i18n="nav.settings.domain_urls">Domain URLs</a>
+              </li>
+              <li>
+                <a class="menu-item" href="settings-customer-access.html" data-i18n="nav.settings.customer_access">Customer Access</a>
+              </li>
+            </ul>
+          </li>
+          <li class=" navigation-header">
+            <span data-i18n="nav.category.admin_portal">Admin Portal</span>
+            <i class="la la-ellipsis-h ft-minus" data-toggle="tooltip" data-placement="right" data-original-title="Admin Portal"></i>
+          </li>
+          <li class=" nav-item">
+            <a href="#">
+              <i class="la la-lock"></i>
+              <span class="menu-title" data-i18n="">Users &amp; Access</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="app-content content">
+      <div class="content-wrapper">
+        <div class="content-header row">
+          <div class="content-header-left col-md-6 col-12 mb-1">
+            <h2 class="content-header-title">1098 Tax Form</h2>
+          </div>
+          <div class="content-header-right breadcrumbs-right breadcrumbs-top col-md-6 col-12">
+            <div class="breadcrumb-wrapper col-12">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="index.html">Home</a>
+                </li>
+                <li class="breadcrumb-item active">Cards
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="content-body">
+          <section id="horizontal-form-layouts">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="card">
+                  <div class="card-header">
+                    <h4 class="card-title">1098 Tax Form</h4>
+                    <a class="heading-elements-toggle">
+                      <i class="la la-ellipsis-v font-medium-3"></i>
+                    </a>
+                    <!-- <div class="heading-elements"> <ul class="list-inline mb-0"> <li> <a data-action="collapse"> <i class="ft-minus"></i> </a> </li> <li> <a data-action="reload"> <i class="ft-rotate-cw"></i> </a> </li> <li> <a data-action="expand"> <i
+                    class="ft-maximize"></i> </a> </li> <li> <a data-action="close"> <i class="ft-x"></i> </a> </li> </ul> </div> -->
+                  </div>
+                  <div class="card-content collapse show">
+                    <div class="card-body">
+                      <form class="form form-horizontal">
+                        <div class="form-body">
+                          <div class="form-group row">
+                            <label class="col-sm-3 label-control" for="projectinput1">Document Name</label>
+                            <div class="col-sm-6">
+                              <input type="text" id="projectinput1" class="form-control" placeholder="" name="dname" value="1098" disabled="disabled">
+                            </div>
                           </div>
-                        </div>
-                        <div class="form-group row">
-                          <label class="col-sm-3 label-control" for="projectinput2">Display Title</label>
-                          <div class="col-sm-6">
-                            <input type="text" id="projectinput2" class="form-control" placeholder="" name="dtitle"
-                            value="1098 Tax Form">
+                          <div class="form-group row">
+                            <label class="col-sm-3 label-control" for="projectinput2">Display Title</label>
+                            <div class="col-sm-6">
+                              <input type="text" id="projectinput2" class="form-control" placeholder="" name="dtitle" value="1098 Tax Form">
+                            </div>
                           </div>
-                        </div>
-                        <div class="form-group row">
-                          <label class="col-sm-3 label-control" for="projectinput6">Document Card</label>
-                          <div class="col-sm-6">
-                            <select id="projectinput6" name="interested" class="form-control">
-                              <option value="tax-documents">Card 01</option>
-                              <option value="Statements">Card 02</option>
-                              <option value="notices">Card 03</option>
-                            </select>
+                          <div class="form-group row">
+                            <label class="col-sm-3 label-control" for="projectinput6">Document Card</label>
+                            <div class="col-sm-6">
+                              <select id="projectinput6" name="interested" class="form-control">
+                                <option value="tax-documents">Card 01</option>
+                                <option value="Statements">Card 02</option>
+                                <option value="notices">Card 03</option>
+                              </select>
+                            </div>
                           </div>
-                        </div>
-                        <div class="form-group row">
-                          <div class="col-sm-3">
-                            <span class="float-sm-right label-control mb-1">Card Preview</span>
-                          </div>
-                          <div class="col-sm-6">
-                            <div class="card document-card mb-2">
-                              <div class="card-body">
-                                <div class="row">
-                                  <div class="col-6 pl-0">
-                                    <p class="card-text text-left name mb-0">1098 Tax Form</p>
+                          <div class="form-group row">
+                            <div class="col-sm-3">
+                              <span class="float-sm-right label-control mb-1">Card Preview</span>
+                            </div>
+                            <div class="col-sm-6">
+                              <div class="card document-card mb-2">
+                                <div class="card-body">
+                                  <div class="row">
+                                    <div class="col-6 pl-0">
+                                      <p class="card-text text-left name mb-0">1098 Tax Form</p>
+                                    </div>
+                                    <div class="col-6 pr-0">
+                                      <p class="card-text text-right date">09/05/2018</p>
+                                    </div>
                                   </div>
-                                  <div class="col-6 pr-0">
-                                    <p class="card-text text-right date">09/05/2018</p>
-                                  </div>
-                                </div>
-                                <div class="row">
-                                  <div class="col-6 pl-0">
-                                    <p class="card-text text-left category mb-0">Taxes (6 pages)</p>
-                                  </div>
-                                  <div class="col-6 pr-0">
-                                    <p class="card-text text-right account">Acct#...0000</p>
+                                  <div class="row">
+                                    <div class="col-6 pl-0">
+                                      <p class="card-text text-left category mb-0">Taxes (6 pages)</p>
+                                    </div>
+                                    <div class="col-6 pr-0">
+                                      <p class="card-text text-right account">Acct#...0000</p>
+                                    </div>
                                   </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                        </div>
-                        <div class="form-group row">
-                          <label class="col-sm-3 label-control" for="projectinput6">Category</label>
-                          <div class="col-sm-6">
-                            <select id="projectinput6" name="interested" class="form-control">
-                              <option value="tax-documents">Taxes</option>
-                              <option value="Statements">Statements</option>
-                              <option value="notices">Notices</option>
-                            </select>
+                          <div class="form-group row">
+                            <label class="col-sm-3 label-control" for="projectinput6">Category</label>
+                            <div class="col-sm-6">
+                              <select id="projectinput6" name="interested" class="form-control">
+                                <option value="tax-documents">Taxes</option>
+                                <option value="Statements">Statements</option>
+                                <option value="notices">Notices</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="form-group row">
+                            <label class="col-sm-3 label-control" for="projectinput6">Set Notification</label>
+                            <div class="col-sm-6">
+                              <select id="projectinput6" name="interested" class="form-control">
+                                <option value="tax-documents">New Tax Document</option>
+                                <option value="Statements">New Statement</option>
+                                <option value="notices">New Notice</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="form-group row">
+                            <label class="col-sm-3 label-control" for="projectinput6">Document History</label>
+                            <div class="col-sm-2">
+                              <fieldset>
+                                <div class="input-group bootstrap-touchspin-vertical">
+                                  <div class="input-group-prepend">
+                                    <button class="btn btn-primary bootstrap-touchspin-down" type="button">
+                                      <i class="ft-minus"></i>
+                                    </button>
+                                  </div>
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text bootstrap-touchspin-prefix" style="display: none;"></span>
+                                  </div>
+                                  <input type="text" class="touchspin form-control" value="50" style="display: block;">
+                                  <div class="input-group-append">
+                                    <span class="input-group-text bootstrap-touchspin-postfix" style="display: none;"></span>
+                                  </div>
+                                  <div class="input-group-append">
+                                    <button class="btn btn-primary bootstrap-touchspin-up" type="button">
+                                      <i class="ft-plus"></i>
+                                    </button>
+                                  </div>
+                                </div>
+                              </fieldset>
+                            </div>
                           </div>
                         </div>
-                        <div class="form-group row">
-                          <label class="col-sm-3 label-control" for="projectinput6">Set Notification</label>
-                          <div class="col-sm-6">
-                            <select id="projectinput6" name="interested" class="form-control">
-                              <option value="tax-documents">New Tax Document</option>
-                              <option value="Statements">New Statement</option>
-                              <option value="notices">New Notice</option>
-                            </select>
-                          </div>
-                        </div>
-                        <div class="form-group row">
-                          <label class="col-sm-3 label-control" for="projectinput6">Document History</label>
-                          <div class="col-sm-2">
-                            <fieldset>
-                              <div class="input-group bootstrap-touchspin-vertical">
-                                <div class="input-group-prepend">
-                                  <button class="btn btn-primary bootstrap-touchspin-down" type="button">
-                                    <i class="ft-minus"></i>
-                                  </button>
-                                </div>
-                                <div class="input-group-prepend">
-                                  <span class="input-group-text bootstrap-touchspin-prefix" style="display: none;"></span>
-                                </div>
-                                <input type="text" class="touchspin form-control"
-                                value="50" style="display: block;">
-                                <div class="input-group-append">
-                                  <span class="input-group-text bootstrap-touchspin-postfix" style="display: none;"></span>
-                                </div>
-                                <div class="input-group-append">
-                                  <button class="btn btn-primary bootstrap-touchspin-up" type="button">
-                                    <i class="ft-plus"></i>
-                                  </button>
-                                </div>
-                              </div>
-                            </fieldset>
-                          </div>
+                        <div class="form-actions center">
+                          <button type="button" class="btn btn-outline-secondary mr-1">
+                            Cancel
+                          </button>
+                          <button type="submit" class="btn btn-info">
+                            Save Changes
+                          </button>
                         </div>
                       </div>
-                      <div class="form-actions center">
-                        <button type="button" class="btn btn-outline-secondary mr-1">
-                          Cancel
-                        </button>
-                        <button type="submit" class="btn btn-info">
-                          Save Changes
-                        </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="document-details">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="card">
+                  <div class="card-header">
+                    <h4 class="card-title">1098 Tax Form</h4>
+                  </div>
+                  <div class="card-body">
+                    <div class="form-row">
+                      <div class="col-md-6 offset-md-3">
+                        <form class="form">
+                          <div class="form-group">
+                            <label>Document Name</label>
+                            <input type="text" class="form-control" value="1098" disabled="disabled">
+                          </div>
+                          <div class="form-group">
+                            <label>Display Title</label>
+                            <input type="text" class="form-control" value="1098 Tax Form">
+                          </div>
+                          <div class="form-group">
+                            <label for="#">Document Card</label>
+                            <div>
+                              <select id="projectinput6" name="interested" class="form-control">
+                                <option value="tax-documents">Card 01</option>
+                                <option value="Statements">Card 02</option>
+                                <option value="notices">Card 03</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label>Label</label>
+                            <input type="text" class="form-control" placeholder="col-md-6 m-auto">
+                          </div>
+                          <div class="form-group">
+                            <label>Label</label>
+                            <input type="text" class="form-control" placeholder="col-md-6 m-auto">
+                          </div>
+                          <div class="form-group">
+                            <label>Label</label>
+                            <input type="text" class="form-control" placeholder="col-md-6 m-auto">
+                          </div>
+                        </form>
+                        <div class="form-actions">
+                          <button type="button" class="btn btn-outline-secondary mr-1">
+                            Cancel
+                          </button>
+                          <button type="submit" class="btn btn-info">
+                            Save Changes
+                          </button>
+                        </div>
                       </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        </section>
       </div>
-      </section>
-      <section id="horizontal-form-layouts">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="card">
-              <div class="card-header">
-                <h4 class="card-title"></h4>
-                <a class="heading-elements-toggle">
-                  <i class="la la-ellipsis-v font-medium-3"></i>
-                </a>
-                <!-- <div class="heading-elements"> <ul class="list-inline mb-0"> <li> <a data-action="collapse"> <i class="ft-minus"></i> </a> </li> <li> <a data-action="reload"> <i class="ft-rotate-cw"></i> </a> </li> <li> <a data-action="expand"> <i
-          class="ft-maximize"></i> </a> </li> <li> <a data-action="close"> <i class="ft-x"></i> </a> </li> </ul> </div> -->
-              </div>
-              <div class="card-content collapse show">
-                <div class="card-body">
-                  <div class="col-md-6 m-auto">
-                    <form class="form">
-                      <div class="form-body">
-                        <div class="form-group">
-                          <label>Label</label>
-                          <input type="text" class="form-control" placeholder="col-md-6 m-auto">
-                        </div>
-                      </div>
-                  </div>
-                  <div class="form-actions center">
-                    <button type="button" class="btn btn-outline-secondary mr-1">
-                      Cancel
-                    </button>
-                    <button type="submit" class="btn btn-info">
-                      Save Changes
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
     </div>
-  </div>
-  </section>
-  </div>
-  </div>
   </div>
   <!-- ////////////////////////////////////////////////////////////////////////////-->
   <footer class="footer footer-static footer-light">
     <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2">
-      <span class="float-md-left d-block d-md-inline-block">&copy;2018 <a class="text-bold-800 grey darken-2" href="#" target="_blank">Lanvera</a></span>
-      <span
-      class="float-md-right d-block d-md-inline-block">All rights reserved</span>
+      <span class="float-md-left d-block d-md-inline-block">&copy;2018
+        <a class="text-bold-800 grey darken-2" href="#" target="_blank">Lanvera</a>
+      </span>
+      <span class="float-md-right d-block d-md-inline-block">All rights reserved</span>
     </p>
   </footer>
   <!-- BEGIN VENDOR JS-->
