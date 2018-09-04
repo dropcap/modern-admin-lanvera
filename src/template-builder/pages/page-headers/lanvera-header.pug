@@ -1,9 +1,8 @@
-.container.position-fixed(style="z-index:900")
-	.row.zindex-tooltip.bg-white
-		.col-md-6.col-12.mb-1
-			.content-header-left
-				h3.content-header-title #{pageTitle}
-		.col-md-6.col-12
-			.content-header-right.breadcrumbs-right.breadcrumbs-top
-				block breadcrumbs
-					+breadcrumbs([{url:"index.html",name:"Home"},{url:"#",name:"Page Headers"}, {name:"Breadcrumbs basic"}])
+.row.bg-white
+	.col-md-6.col-12.mb-1
+		.content-header-left
+			h3.content-header-title #{pageTitle}
+	.col-md-6.col-12
+		.content-header-right.breadcrumbs-right.breadcrumbs-top
+			block breadcrumbs
+				+breadcrumbs([{url:"index.html",name:"Home"},{url:"#",name:"Page Headers"}, {name:"Breadcrumbs basic"}])

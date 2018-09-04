@@ -385,7 +385,6 @@ footer.footer-dark {
             top: 3px; }
         .main-menu.menu-dark .navigation > li.open > a {
           color: rgba(230, 230, 230, 0.75);
-          background: #3f3d65;
           border-right: 4px solid #1E9FF2; }
         .main-menu.menu-dark .navigation > li.open .hover > a {
           -webkit-transform: translateX(-4px);
@@ -421,8 +420,7 @@ footer.footer-dark {
             color: rgba(255, 255, 255, 0.75);
             font-weight: 700;
             background: #3b395f; }
-          .main-menu.menu-dark .navigation > li .active .hover > a {
-            background: #3f3d65; }
+          .main-menu.menu-dark .navigation > li .active .hover > a {}
         .main-menu.menu-dark .navigation > li ul {
           padding: 0;
           margin: 0;
@@ -3748,7 +3746,11 @@ input[type="month"].form-control {
 
 .select2-container--classic .select-sm,
 .select2-container--default .select-sm {
+  height: -webkit-calc(-webkit-calc(1.875rem + 2px) + 0.5rem) !important;
+  height: -webkit-calc(-moz-calc(1.875rem + 2px) + 0.5rem) !important;
   height: -webkit-calc(calc(1.875rem + 2px) + 0.5rem) !important;
+  height: -moz-calc(-webkit-calc(1.875rem + 2px) + 0.5rem) !important;
+  height: -moz-calc(-moz-calc(1.875rem + 2px) + 0.5rem) !important;
   height: -moz-calc(calc(1.875rem + 2px) + 0.5rem) !important;
   height: calc(calc(1.875rem + 2px) + 0.5rem) !important;
   font-size: 0.875rem;
@@ -3762,7 +3764,11 @@ input[type="month"].form-control {
     top: 0.5rem !important; }
   .select2-container--classic .select-sm.select2-selection--multiple,
   .select2-container--default .select-sm.select2-selection--multiple {
+    min-height: -webkit-calc(-webkit-calc(1.875rem + 2px) + 0.5rem) !important;
+    min-height: -webkit-calc(-moz-calc(1.875rem + 2px) + 0.5rem) !important;
     min-height: -webkit-calc(calc(1.875rem + 2px) + 0.5rem) !important;
+    min-height: -moz-calc(-webkit-calc(1.875rem + 2px) + 0.5rem) !important;
+    min-height: -moz-calc(-moz-calc(1.875rem + 2px) + 0.5rem) !important;
     min-height: -moz-calc(calc(1.875rem + 2px) + 0.5rem) !important;
     min-height: calc(calc(1.875rem + 2px) + 0.5rem) !important;
     padding: 0.25rem 0.5rem !important; }
@@ -3777,7 +3783,11 @@ input[type="month"].form-control {
 
 .select2-container--classic .select-xs,
 .select2-container--default .select-xs {
+  height: -webkit-calc(-webkit-calc(1.875rem + 2px)) !important;
+  height: -webkit-calc(-moz-calc(1.875rem + 2px)) !important;
   height: -webkit-calc(calc(1.875rem + 2px)) !important;
+  height: -moz-calc(-webkit-calc(1.875rem + 2px)) !important;
+  height: -moz-calc(-moz-calc(1.875rem + 2px)) !important;
   height: -moz-calc(calc(1.875rem + 2px)) !important;
   height: calc(calc(1.875rem + 2px)) !important;
   padding: 0 0.2rem;
@@ -3793,7 +3803,11 @@ input[type="month"].form-control {
     top: 0.175rem !important; }
   .select2-container--classic .select-xs.select2-selection--multiple,
   .select2-container--default .select-xs.select2-selection--multiple {
+    min-height: -webkit-calc(-webkit-calc(1.875rem + 2px) + 0.2rem) !important;
+    min-height: -webkit-calc(-moz-calc(1.875rem + 2px) + 0.2rem) !important;
     min-height: -webkit-calc(calc(1.875rem + 2px) + 0.2rem) !important;
+    min-height: -moz-calc(-webkit-calc(1.875rem + 2px) + 0.2rem) !important;
+    min-height: -moz-calc(-moz-calc(1.875rem + 2px) + 0.2rem) !important;
     min-height: -moz-calc(calc(1.875rem + 2px) + 0.2rem) !important;
     min-height: calc(calc(1.875rem + 2px) + 0.2rem) !important;
     padding: 4px 6px !important; }
